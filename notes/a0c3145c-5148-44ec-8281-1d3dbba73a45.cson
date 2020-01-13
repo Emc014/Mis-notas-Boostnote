@@ -1,0 +1,30 @@
+createdAt: "2020-01-10T16:16:16.122Z"
+updatedAt: "2020-01-10T19:24:13.544Z"
+type: "SNIPPET_NOTE"
+folder: "16e8c7eaf9f61d8cb104"
+title: "TERMINAL: Cambiar o navegar por los directorios"
+tags: [
+  "Cambiar"
+  "Directorio"
+  "Navegar"
+]
+description: "TERMINAL: Cambiar o navegar por los directorios"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Shell"
+    content: '''
+      $ cd Document/index.html 
+      
+      (Despues de cd ponemos la direccion a la que deseamos ir)
+      
+      Directorios:
+      Home:/
+      directorio del Usuario:~
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

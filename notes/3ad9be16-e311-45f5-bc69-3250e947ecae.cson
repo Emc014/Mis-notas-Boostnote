@@ -1,0 +1,66 @@
+createdAt: "2020-01-09T18:23:35.658Z"
+updatedAt: "2020-01-10T04:05:49.913Z"
+type: "SNIPPET_NOTE"
+folder: "8fe2efc129ea3f88bbe8"
+title: "Alineado o centrado de contenido con Grid"
+tags: [
+  "Alineado"
+  "Contenido"
+  "Grid"
+  "Centrado"
+]
+description: "Alineado o centrado de contenido con Grid"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Css"
+    mode: "CSS"
+    content: '''
+      /*alinear a todos sus hijos*/
+      .contenedor{
+        display:grid;
+        /*alineado horizontal*/
+        justify-items:center;
+        /*alineado Vertical*/
+        align-items:start;
+        
+        /*
+        Valores posibles:
+        start:alinear al principio
+        end:alinear al final
+        center:alinear al centro
+        strech:estirar
+        */
+      }
+      -----------------------------------------------
+      
+      .item:nth-of-type(1){
+        /*se alinea a si mismo*/
+        justify-self:start;
+        align-self:start;
+      }
+      ----------------------------------------------
+      
+      /*alinear todo el grid*/
+      
+      .contenedor{
+        /*horizontal*/
+        justify-content:center;
+        /*vertical*/
+        align-content:center;
+        
+        /*
+        Valores posibles:
+        start:al principio
+        end:al final
+        center:al centro
+        space-around:suma espacios a cada lado de los elementos
+        space-between:deja espacio entre los elementos internos
+        space-evenly:distribuye el espasio equitativamente
+        */
+      }
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

@@ -1,0 +1,30 @@
+createdAt: "2020-01-10T16:24:31.227Z"
+updatedAt: "2020-01-10T19:21:29.379Z"
+type: "SNIPPET_NOTE"
+folder: "16e8c7eaf9f61d8cb104"
+title: "TERMINAL: Listar archivos y carpetas dentro del directorio actual"
+tags: [
+  "Archivo"
+  "Archivos_Ocultos"
+  "Directorio"
+  "Ocultos"
+  "Terminal"
+  "listar"
+  "ls"
+]
+description: "TERMINAL: Listar archivos y carpetas dentro del directorio actual"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Shell"
+    content: '''
+      $ ls (muestra los archivos)
+      
+      $ ls -al  (Muestra los tambien los archivos ocultos y los pone en una 
+      lista)
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

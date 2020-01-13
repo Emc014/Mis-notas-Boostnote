@@ -1,0 +1,20 @@
+createdAt: "2019-12-06T14:07:38.348Z"
+updatedAt: "2020-01-10T18:20:38.234Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "1 GIT: Iniciar repositorio Git"
+tags: [
+  "Iniciar"
+  "Repocitorio"
+]
+description: "1 GIT: Iniciar repositorio Git"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    content: "$ git init"
+    mode: "Shell"
+  }
+]
+isStarred: false
+isTrashed: false

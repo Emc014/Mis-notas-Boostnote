@@ -1,0 +1,46 @@
+createdAt: "2020-01-09T16:56:59.385Z"
+updatedAt: "2020-01-10T16:12:56.652Z"
+type: "SNIPPET_NOTE"
+folder: "8fe2efc129ea3f88bbe8"
+title: "Grid agrupar filas o columnas"
+tags: [
+  "Grid"
+  "Agrupar"
+  "Columnas"
+  "Filas"
+]
+description: "Grid agrupar filas o columnas"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Css"
+    mode: "CSS"
+    content: '''
+      contenedor{
+        display:grid;
+        grid-template: repeat(3,1fr)/ 1fr 2fr;
+      }
+      .item:nth-of-type(1){
+        /*indicamos en que divicion de las columnas empieza y en que divicion termina, es muy importante aclarar que son las diviciones y no las columnas, en este ejemplo el elemento ocuparia 2 columnas ya que las 2 columnas se dividen con tras diviciones*/
+        grid-column-start:1;
+        grid-column-end:3;
+      }
+      .item:nth-of-type(2){
+        /*este es el formato resumido*/
+        grid-column: 2/4;
+      }
+      .item:nth-of-type(3){
+        /*span indica que se deven contar las columnas y no las diviciones*/
+        grid-column:2/span 2
+      }
+      .item:nth-of-type(4){
+        /*comienza en el 1 que seria la primera divicion desde la izquierda y termina en  el -1 primera desde la derecha*/
+        grid-column:1/-1
+      }
+      
+      /* todo lo anterior se aplica a las filas (row) siendo 1 la preimera divicion de arriba y -1 la primera de abajo */
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

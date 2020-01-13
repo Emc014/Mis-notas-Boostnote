@@ -1,0 +1,35 @@
+createdAt: "2020-01-10T19:39:49.793Z"
+updatedAt: "2020-01-13T14:26:09.354Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: Ver o cambiar verciones anteriores o posteriores de un archivo, navegar entre ramas."
+tags: [
+  "Git"
+  "Navegar"
+  "Rama"
+  "Ramas"
+  "Ver"
+  "Version"
+  "Versiones"
+  "checkout"
+]
+description: "GIT: Ver o cambiar verciones anteriores o posteriores de un archivo, navegar entre ramas."
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: '''
+      //Navegar a otra vercion del archivo
+      $git checkout idCommit nombreArchivo.txt
+      
+      //Navegar a otra vercion del repositorio
+      $git checkout idCommit
+      
+      //Navegar a otra rama 
+      $git checkout nombreDeLaRama
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

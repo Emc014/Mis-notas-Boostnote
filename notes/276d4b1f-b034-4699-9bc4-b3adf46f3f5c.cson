@@ -1,0 +1,24 @@
+createdAt: "2019-12-06T14:26:07.308Z"
+updatedAt: "2020-01-10T18:20:55.056Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "3 GIT: Grabar O Guardar Cambios en el repositorio"
+tags: [
+  "Actualizar"
+  "Commit"
+  "Git"
+  "Grabar"
+  "Master"
+  "Repositorio"
+]
+description: "3 GIT: Grabar O Guardar Cambios en el repositorio"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    content: "$ git commit -m \"Mensaje de la vercion\""
+    mode: "Shell"
+  }
+]
+isStarred: false
+isTrashed: false

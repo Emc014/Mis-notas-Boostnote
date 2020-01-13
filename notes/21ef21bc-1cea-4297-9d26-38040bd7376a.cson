@@ -1,0 +1,24 @@
+createdAt: "2019-12-06T14:31:20.655Z"
+updatedAt: "2020-01-10T18:43:58.467Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT:  ver los camios realizados en un archivo"
+tags: [
+  "Historial"
+  "repositorio"
+  "Git"
+]
+description: "GIT:  ver los camios realizados en un archivo"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    content: '''
+      $git show
+      
+    '''
+    mode: "Shell"
+  }
+]
+isStarred: false
+isTrashed: false

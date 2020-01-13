@@ -1,0 +1,35 @@
+createdAt: "2020-01-09T15:50:14.469Z"
+updatedAt: "2020-01-09T15:58:46.039Z"
+type: "SNIPPET_NOTE"
+folder: "8fe2efc129ea3f88bbe8"
+title: "Funciones Grid"
+tags: [
+  "Repeticion"
+  "Grid"
+  "Funcion"
+  "minmax"
+  "repeat"
+]
+description: "Funciones Grid"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Css"
+    mode: "CSS"
+    content: '''
+      *{
+        display:grid;
+        /*A la funcion repeat se le pasa primero la cantidad de elementos con la misma medida y a continuacion la medida*/
+        grid-template: 300px 100px 100px/ repeat(3,1fr)
+      }
+      
+      *{
+        display:grid;
+        /*A minmax le pasamos primero la medida minima y despues la maxima*/
+        grid-template: 300px 100px 100px/ repeat(3,minmax(200px,1fr))
+      }
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

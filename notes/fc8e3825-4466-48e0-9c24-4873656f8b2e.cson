@@ -1,0 +1,31 @@
+createdAt: "2020-01-09T17:48:42.302Z"
+updatedAt: "2020-01-09T17:56:22.118Z"
+type: "SNIPPET_NOTE"
+folder: "8fe2efc129ea3f88bbe8"
+title: "Nombres a las lineas de divicion Grid"
+tags: [
+  "Nombrar"
+  "Lineas"
+  "Grid"
+  "Nombrar_Lineas_Grid"
+]
+description: "Nombres a las lineas de divicion Grid"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Css"
+    mode: "CSS"
+    content: '''
+      container{
+        display:grid;
+        /*se colocan lombres entre corchete*/
+        grid-template-columns: [colInicio] 200px 
+          [segColumn] 200px 
+          [terser] 200px [final];
+      }
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

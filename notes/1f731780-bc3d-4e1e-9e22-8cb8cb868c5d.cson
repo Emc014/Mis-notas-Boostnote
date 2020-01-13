@@ -1,0 +1,46 @@
+createdAt: "2020-01-09T14:58:45.023Z"
+updatedAt: "2020-01-09T17:50:46.522Z"
+type: "SNIPPET_NOTE"
+folder: "8fe2efc129ea3f88bbe8"
+title: "Crear columnas Grid"
+tags: [
+  "Columnas"
+  "Grid"
+  "Crear"
+  "Crear_Columnas"
+]
+description: "Crear columnas Grid"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "html"
+    mode: "HTML"
+    content: '''
+      <div class="container">
+        <div class='item'>1</div>
+        <div class='item'>2</div>
+        <div class='item'>2</div>
+        <div class='item'>4</div>
+        <div class='item'>5</div>
+      </div>
+    '''
+  }
+  {
+    linesHighlighted: []
+    name: "css"
+    mode: "CSS"
+    content: '''
+      //se selecciona el elemento en el que queremos crear el grid
+      
+      container{
+        display:grid;
+        /*grid-templante-columns crea una columna por cada medida que le pasamos*/
+        grid-template-columns: 200px 200px 200px;
+      }
+      
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

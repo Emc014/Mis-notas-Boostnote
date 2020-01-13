@@ -1,0 +1,23 @@
+createdAt: "2020-01-10T16:35:53.389Z"
+updatedAt: "2020-01-10T19:21:59.712Z"
+type: "SNIPPET_NOTE"
+folder: "16e8c7eaf9f61d8cb104"
+title: "TERMINAL: Crear carpeta o directorio"
+tags: [
+  "Carpeta"
+  "Consola"
+  "Crear"
+  "Directorio"
+  "Terminal"
+]
+description: "TERMINAL: Crear carpeta o directorio"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: "$mkdir proyecto1"
+  }
+]
+isStarred: false
+isTrashed: false

@@ -1,0 +1,30 @@
+createdAt: "2020-01-13T15:33:22.838Z"
+updatedAt: "2020-01-13T15:43:41.321Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: enviar a repositorio remoto"
+tags: [
+  "Enviar"
+  "Git"
+  "Remoto"
+  "Repositorio"
+  "push"
+]
+description: "GIT: enviar a repositorio remoto"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: '''
+      //sintaxis: push nombreDelRemoto nombreDeLaRama
+      $git push origin master
+      
+      //Si es la primera ves te pedira el usuario y la contraceña del remoto y dara un error porque primero hay que traer los archivos del remoto por primera vez con:
+      
+      $git pull origin master  --allow-unrealated-histories
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

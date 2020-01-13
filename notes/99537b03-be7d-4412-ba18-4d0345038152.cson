@@ -1,0 +1,17 @@
+createdAt: "2019-12-06T18:26:22.436Z"
+updatedAt: "2020-01-10T19:23:18.652Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: Receteo de del historial a una vercion anterior. Con este comando volvemos a una vercion anterior borrando todos los commits posteriores"
+tags: []
+description: "GIT: Receteo de del historial a una vercion anterior. Con este comando volvemos a una vercion anterior borrando todos los commits posteriores"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    content: ""
+    mode: "Shell"
+  }
+]
+isStarred: false
+isTrashed: false

@@ -1,0 +1,23 @@
+createdAt: "2019-12-06T17:51:04.971Z"
+updatedAt: "2020-01-12T01:46:49.006Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT:  Ver  los cambios de un archivo"
+tags: [
+  "Cambios"
+  "Git"
+  "Ver"
+  "historial"
+  "show"
+]
+description: "GIT:  Ver  los cambios de un archivo"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "terminal"
+    content: "$git show nombreArchivo.txt"
+    mode: "Shell"
+  }
+]
+isStarred: false
+isTrashed: false

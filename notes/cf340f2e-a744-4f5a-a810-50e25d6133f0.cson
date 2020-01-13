@@ -1,0 +1,41 @@
+createdAt: "2020-01-09T16:13:52.692Z"
+updatedAt: "2020-01-09T16:36:37.694Z"
+type: "SNIPPET_NOTE"
+folder: "8fe2efc129ea3f88bbe8"
+title: "Areas Grid"
+tags: [
+  "Areas"
+  "Grid"
+]
+description: "Areas Grid"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Css"
+    mode: "CSS"
+    content: '''
+      contenedor{
+        display:grid;
+        grid-template: repeat(3;1f) / 1fr 2fr;
+        height:100vh;
+        /*creamos las areas, cada conjunto de comillas es una fila, cada indicacion es una columna, ej: header ocupa dos columnas en la primera fila por eso aparece en las primeras comillas y dos veces una por cada columna*/
+        grid-template-areas:"header header" "left contenido" "footer footer"
+      }
+      /*Indicamos a cada elemento que harea deven ocupar*/
+      .header{
+        grid-area:"header";
+      }
+      .left{
+        grid-area:"left";
+      }
+      .contenido{
+        grid-area:"contenido";
+      }
+      .footer{
+        grid-area:"footer";
+      }
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

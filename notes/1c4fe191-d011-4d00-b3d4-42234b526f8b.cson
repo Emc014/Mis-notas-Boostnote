@@ -1,0 +1,25 @@
+createdAt: "2020-01-13T15:19:23.530Z"
+updatedAt: "2020-01-13T15:24:00.218Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "Git: Agregar origen o repositorio Remoto"
+tags: [
+  "Agregar"
+  "Git"
+  "Remoto"
+  "Repositorio"
+]
+description: "Git: Agregar origen o repositorio Remoto"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: '''
+      //Con http
+      $git remote add origin http://esta-es-la-direccion-del-repositorio.com
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

@@ -1,0 +1,22 @@
+createdAt: "2020-01-10T16:13:30.219Z"
+updatedAt: "2020-01-10T19:22:51.597Z"
+type: "SNIPPET_NOTE"
+folder: "16e8c7eaf9f61d8cb104"
+title: "TERMINAL: Ver la ruta de directorio actual"
+tags: [
+  "Direccion"
+  "Directorio"
+  "Ruta"
+  "Terminal"
+]
+description: "TERMINAL: Ver la ruta de directorio actual"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: "$ pwd"
+  }
+]
+isStarred: false
+isTrashed: false

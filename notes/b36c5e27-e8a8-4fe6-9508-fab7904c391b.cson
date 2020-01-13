@@ -1,0 +1,28 @@
+createdAt: "2020-01-09T15:18:46.373Z"
+updatedAt: "2020-01-09T15:52:04.712Z"
+type: "SNIPPET_NOTE"
+folder: "8fe2efc129ea3f88bbe8"
+title: "Crerar Filas y Columnas Formato Resumido"
+tags: [
+  "Filas"
+  "Columnas"
+  "Grid"
+  "Crear"
+]
+description: "Crerar Filas y Columnas Formato Resumido"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Css"
+    mode: "CSS"
+    content: '''
+      *{
+        display:grid;
+        /*A grid-templante le pasas primero las filas y luego las columnas separado por   un '/'  */
+        grid-template: 300px 100px / 50% 200px 100px
+      }
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

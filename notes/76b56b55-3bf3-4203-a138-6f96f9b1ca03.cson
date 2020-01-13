@@ -1,0 +1,31 @@
+createdAt: "2020-01-10T17:58:06.765Z"
+updatedAt: "2020-01-10T20:05:28.053Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: Extraer erchivos del staging"
+tags: [
+  "Borrar"
+  "Estado"
+  "Extraer"
+  "Git"
+  "Staging"
+]
+description: "GIT: Extraer erchivos del staging"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "Shell"
+    content: '''
+      //elimina los archivos del area de staging  y de git pero mantiene los archivos en el disco duro o directorio.
+      $git rm --cached
+      
+      //Elimina los archivos de Git y del disco duro o directorio. Git siempre guarda todo, por lo que podemos acceder al registro de la existencia de archivos, de modo que podemos recuperarlos si es nesesario (pero devemos usar comandos mas avanzados).
+      $git rm --force
+      
+      //Elimina el archivo del staging para que no valla en el proximo commit pero no lo elimina en git.
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

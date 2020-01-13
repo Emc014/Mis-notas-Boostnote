@@ -1,0 +1,27 @@
+createdAt: "2020-01-09T15:44:44.970Z"
+updatedAt: "2020-01-09T15:51:47.782Z"
+type: "SNIPPET_NOTE"
+folder: "8fe2efc129ea3f88bbe8"
+title: "Fracciones como medidas"
+tags: [
+  "fr"
+  "Grid"
+  "Medida"
+]
+description: "Fracciones como medidas"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Css"
+    mode: "CSS"
+    content: '''
+      *{
+        display:grid;
+        /*fr indica la porcion del tamaño total que hay disponible*/
+        grid-template:1fr 2fr 1fr/ 1fr 2fr;
+      }
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

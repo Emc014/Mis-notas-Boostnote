@@ -1,0 +1,31 @@
+createdAt: "2020-01-09T15:37:40.272Z"
+updatedAt: "2020-01-09T15:43:38.395Z"
+type: "SNIPPET_NOTE"
+folder: "8fe2efc129ea3f88bbe8"
+title: "Espacios entre Grids"
+tags: [
+  "Espacios"
+  "Grid"
+  "gap"
+]
+description: "Espacios entre Grids"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Css"
+    mode: "CSS"
+    content: '''
+      *{
+        display:grid;
+        /*espaciado para las columnas*/
+        grid-column-gap:30px;
+        /*espaciado para las filas*/
+        grid-row-gap:30px;
+        /*Resumido 'filas / columnas' */
+        grid-gap: 10px 100px
+      }
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

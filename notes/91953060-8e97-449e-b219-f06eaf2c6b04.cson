@@ -1,0 +1,25 @@
+createdAt: "2020-01-12T01:37:01.092Z"
+updatedAt: "2020-01-12T01:44:05.276Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: Commit directo sin pasar por staging"
+tags: [
+  "Commit"
+  "Git"
+  "Staging"
+]
+description: "GIT: Commit directo sin pasar por staging"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "terminal"
+    mode: "Shell"
+    content: '''
+      //el commit con "-am" envia todos los archivos al commit aunque no esten en el staging pero solo si git tiene el archivo en tracked.
+      
+      $git commit -am "mensaje del commit"
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

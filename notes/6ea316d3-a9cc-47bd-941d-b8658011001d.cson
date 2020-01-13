@@ -1,0 +1,29 @@
+createdAt: "2020-01-13T15:24:04.813Z"
+updatedAt: "2020-01-13T15:32:35.731Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: Ver repositorio remoto"
+tags: [
+  "Git"
+  "Remoto"
+  "Repositorio"
+  "Ver"
+]
+description: "GIT: Ver repositorio remoto"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: '''
+      //Ver si exister un repositorio remoto: Si existe un remoto devovera el nombre del mismo.
+      $git remote
+      
+      
+      //Muestra las direcciones para fetch y push del remoto
+      $git remote -v
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

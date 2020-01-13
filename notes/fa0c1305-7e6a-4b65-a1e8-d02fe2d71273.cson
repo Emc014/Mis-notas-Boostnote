@@ -1,0 +1,29 @@
+createdAt: "2019-12-06T18:20:18.802Z"
+updatedAt: "2020-01-10T18:23:47.757Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: Eliminar un archivo de Git sin eliminar su historial"
+tags: [
+  "Archivo"
+  "Eliminar"
+  "Git"
+  "Historial"
+  "Repositorio"
+  "rm"
+]
+description: "GIT: Eliminar un archivo de Git sin eliminar su historial"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    content: '''
+      //elimina el archivo del Staging pero lo mantiene en el disco duro (Repositorio). En otras palabras le quita el "git add".
+      
+      git rm --cached nombreArchivo.txt
+      
+    '''
+    mode: "Shell"
+  }
+]
+isStarred: false
+isTrashed: false

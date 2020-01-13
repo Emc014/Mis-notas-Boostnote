@@ -1,0 +1,20 @@
+createdAt: "2020-01-13T15:06:27.153Z"
+updatedAt: "2020-01-13T15:08:34.193Z"
+type: "MARKDOWN_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: Solución de conflictos al hacer un mergeGit nunca borra nada a menos que nosotros se lo indiquemos. Cuando usamos los comandos git merge o git checkout estamos cambiando de rama o creando un nuevo commit, no borrando ramas ni commits (recuerda que puedes borrar commits con git reset y ramas con git branch -d)."
+tags: [
+  "Conflictos"
+  "Git"
+  "Solucion"
+]
+content: '''
+  <h1>GIT: Solución de conflictos al hacer un merge</h1><strong>Git nunca borra nada</strong> a menos que nosotros se lo indiquemos. Cuando usamos los comandos <code>git merge</code> o <code>git checkout</code> estamos cambiando de rama o creando un nuevo commit, no borrando ramas ni commits (recuerda que puedes borrar commits con <code>git reset</code> y ramas con <code>git branch -d</code>).</p>
+  <p>Git es muy inteligente y puede resolver algunos conflictos automáticamente: cambios, nuevas líneas, entre otros. Pero algunas veces no sabe cómo resolver estas diferencias, por ejemplo, cuando dos ramas diferentes hacen cambios distintos a una misma línea.</p>
+  <p>Esto lo conocemos como <strong>conflicto</strong> y lo podemos resolver manualmente, solo debemos hacer el merge, ir a nuestro editor de código y elegir si queremos quedarnos con alguna de estas dos versiones o algo diferente. Algunos editores de código como VSCode nos ayudan a resolver estos conflictos sin necesidad de borrar o escribir líneas de texto, basta con hundir un botón y guardar el archivo.</p>
+  <p>Recuerda que siempre debemos crear un nuevo commit para aplicar los cambios del merge. Si Git puede resolver el conflicto hará commit automáticamente. Pero, en caso de no pueda resolverlo, debemos solucionarlo y hacer el commit.</p>
+  <p>Los archivos con conflictos por el comando <code>git merge</code> entran en un nuevo estado que conocemos como <strong>Unmerged</strong>. Funcionan muy parecido a los archivos en estado Unstaged, algo así como un estado intermedio entre Untracked y Unstaged, solo debemos ejecutar <code>git add</code> para pasarlos al área de staging y <code>git commit</code> para aplicar los cambios en el repositorio.</p></div><div class="Description-teacher"><figure class="Description-teacherImg"><img alt="John Freddy Vega" src="https://static.platzi.com/media/avatars/freddier_b394e3f6-50c0-4b9e-a4b2-95d2b9ca55fd.jpg" width="60" height="60"></figure><div class="Description-teacherInfo"><div><strong><!-- react-text: 10162 -->John Freddy Vega<!-- /react-text --><a href="" class="Description-teacherTwt"></a></strong></div><div class="Description-teacherDegree"></div></div></div></div>
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

@@ -1,0 +1,26 @@
+createdAt: "2020-01-13T14:32:39.946Z"
+updatedAt: "2020-01-13T14:44:45.458Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: Fucion o Union de ramas, Unir ramas"
+tags: [
+  "Fucion"
+  "Git"
+  "Ramas"
+  "Union"
+  "Unir"
+]
+description: "GIT: Fucion o Union de ramas, Unir ramas"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: '''
+      //marge trae a la rama actual en la que estamos los cambios de la rama que le pasamos como parametro y crea un nuevo commit con la suma de las dos ramas.
+      $git marge nombreRama
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

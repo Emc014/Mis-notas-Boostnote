@@ -1,0 +1,25 @@
+createdAt: "2020-01-09T14:56:32.190Z"
+updatedAt: "2020-01-09T14:58:33.918Z"
+type: "SNIPPET_NOTE"
+folder: "8fe2efc129ea3f88bbe8"
+title: "Crear un nuevo Grid"
+tags: [
+  "Crear"
+  "Grid"
+  "Crear_Nuevo_Grid"
+]
+description: "Crear un nuevo Grid"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "CSS"
+    content: '''
+      *{
+        display:grid
+      }
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

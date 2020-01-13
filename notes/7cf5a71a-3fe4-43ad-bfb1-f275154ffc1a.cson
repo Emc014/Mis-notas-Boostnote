@@ -1,0 +1,38 @@
+createdAt: "2020-01-09T18:08:00.813Z"
+updatedAt: "2020-01-09T18:20:15.887Z"
+type: "SNIPPET_NOTE"
+folder: "8fe2efc129ea3f88bbe8"
+title: "Grids implisitos o dinamicos"
+tags: [
+  "Implicito"
+  "Grid"
+  "Dinamicos"
+]
+description: "Grids implisitos o dinamicos"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Css"
+    mode: "CSS"
+    content: '''
+      /*flujo de los elementos del grid */
+      .contenedor{
+        display:grid;
+        /*Los elementos se acomodan en dilas por defecto*/
+        grid-auto-flow:row;
+        /*Los elementos se acomodan en columnas*/
+        grid-auto-flow:column;
+      }
+      /*tamaño automatico a lementos dinamicos del grid*/
+      .contenedor{
+        display:grid;
+        /*el patron se repite a medida que hay mas elementos*/
+        grid-auto-columns: 200px 200px 200px 200px;
+        grid-auto-rows: 100px 200px;
+      }
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

@@ -1,0 +1,30 @@
+{
+  "folders": [
+    {
+      "key": "78f114a051b5fbbdc96b",
+      "color": "#1278BD",
+      "name": "Default"
+    },
+    {
+      "key": "16e8c7eaf9f61d8cb104",
+      "color": "#3FD941",
+      "name": "Terminal"
+    },
+    {
+      "key": "02e5bd83bdc6f460f151",
+      "color": "#2BA5F7",
+      "name": "Git"
+    },
+    {
+      "key": "8fe2efc129ea3f88bbe8",
+      "color": "#E8D252",
+      "name": "Css Grid"
+    },
+    {
+      "key": "ece686960d835d6783b6",
+      "color": "#30D5C8",
+      "name": "PHP"
+    }
+  ],
+  "version": "1.0"
+}

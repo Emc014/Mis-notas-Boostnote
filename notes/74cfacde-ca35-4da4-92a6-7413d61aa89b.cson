@@ -1,0 +1,31 @@
+createdAt: "2020-01-12T01:47:19.029Z"
+updatedAt: "2020-01-13T14:32:11.657Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: Crear una nueva rama o ver existentes"
+tags: [
+  "Crear"
+  "Git"
+  "Nueva"
+  "Rama"
+  "Ramas"
+  "Ver"
+]
+description: "GIT: Crear una nueva rama o ver existentes"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: '''
+      //Crear una nueva rama
+      $git branch nombreDeLaRama
+      
+      //Ver Ramas Existentes
+      $git branch
+      
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

@@ -1,0 +1,25 @@
+createdAt: "2020-01-09T15:29:55.962Z"
+updatedAt: "2020-01-09T15:33:46.848Z"
+type: "SNIPPET_NOTE"
+folder: "8fe2efc129ea3f88bbe8"
+title: "Herencia de grid"
+tags: [
+  "Herencia"
+  "Grid"
+]
+description: "Herencia de grid"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Css"
+    mode: "CSS"
+    content: '''
+      *{
+        /*Si le pasamos subgrid a un elemento hijo de un padre con grid este hereda las configuraciones del grid del pafre*/
+        display:subgrid;
+      }
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

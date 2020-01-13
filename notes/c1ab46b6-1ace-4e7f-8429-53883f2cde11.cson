@@ -1,0 +1,29 @@
+createdAt: "2019-12-06T17:53:16.340Z"
+updatedAt: "2020-01-10T19:34:13.908Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: Comparar 2 verciones"
+tags: [
+  "Cambios"
+  "Comparar"
+  "Diferencias"
+  "Git"
+  "Versiones"
+]
+description: "GIT: Comparar 2 verciones"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    content: '''
+      //Es importante poner la version mas vieja primero o la comparacion mostrara los indicadores de cambios al reves.
+      $git diff IDcommitA IDcommitB
+      
+      //Muestra la diferencia entre lo que esta en staging y lo que esta en el directorio
+      $git diff
+    '''
+    mode: "Shell"
+  }
+]
+isStarred: false
+isTrashed: false

@@ -1,0 +1,30 @@
+createdAt: "2020-01-09T15:12:54.790Z"
+updatedAt: "2020-01-09T15:52:15.463Z"
+type: "SNIPPET_NOTE"
+folder: "8fe2efc129ea3f88bbe8"
+title: "Crear Filas Grid"
+tags: [
+  "Filas"
+  "Grid"
+  "Crear"
+  "Crear_Filas_Grid"
+]
+description: "Crear Filas Grid"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Css"
+    mode: "CSS"
+    content: '''
+      /*seleccionamos el elemento al que queremos aplicar el grid*/
+      
+      *{
+        display:grid;
+        /*grid-templante-rows nos crea una fila por cada medida que le pasamos*/
+        grid-template-rows: 300px 300px
+      }
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

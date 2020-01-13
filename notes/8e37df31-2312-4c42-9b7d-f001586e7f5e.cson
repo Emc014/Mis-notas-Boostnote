@@ -1,0 +1,22 @@
+createdAt: "2020-01-13T15:03:21.399Z"
+updatedAt: "2020-01-13T15:04:53.245Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: Eliminar rama"
+tags: [
+  "Borrar"
+  "Eliminar"
+  "Git"
+  "Rama"
+]
+description: "GIT: Eliminar rama"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: "$git branch -d"
+  }
+]
+isStarred: false
+isTrashed: false
