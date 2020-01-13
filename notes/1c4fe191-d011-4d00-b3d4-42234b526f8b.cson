@@ -1,15 +1,17 @@
 createdAt: "2020-01-13T15:19:23.530Z"
-updatedAt: "2020-01-13T15:24:00.218Z"
+updatedAt: "2020-01-13T18:25:17.343Z"
 type: "SNIPPET_NOTE"
 folder: "02e5bd83bdc6f460f151"
-title: "Git: Agregar origen o repositorio Remoto"
+title: "Git: Agregar o Cambiar origen o repositorio Remoto"
 tags: [
   "Agregar"
+  "Cambiar"
   "Git"
+  "Modificar"
   "Remoto"
   "Repositorio"
 ]
-description: "Git: Agregar origen o repositorio Remoto"
+description: "Git: Agregar o Cambiar origen o repositorio Remoto"
 snippets: [
   {
     linesHighlighted: []
@@ -18,6 +20,12 @@ snippets: [
     content: '''
       //Con http
       $git remote add origin http://esta-es-la-direccion-del-repositorio.com
+      
+      //Con Ssh pasamos el enlace ssh del repositorio
+      $git remote add origin direccion@ssh.com:repositorio/remoto
+      
+      //Modificar repositorio
+      $git remote set-url origin direccion@ssh.com:repositorio/remoto
     '''
   }
 ]
