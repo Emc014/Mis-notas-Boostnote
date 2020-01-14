@@ -1,0 +1,27 @@
+createdAt: "2020-01-13T17:04:34.110Z"
+updatedAt: "2020-01-13T17:37:16.711Z"
+type: "SNIPPET_NOTE"
+folder: "16e8c7eaf9f61d8cb104"
+title: "Crear llaves de sifrado publicas y privadas"
+tags: [
+  "Llave_Privada"
+  "Llave_Publica"
+  "Sifrado"
+  "Terminal"
+]
+description: "Crear llaves de sifrado publicas y privadas"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: '''
+      $ ssh-keygen -t rsa -b 4096 -c "micorreo@micorreo.com"
+      
+      // a continuacion te pedira que ingreses el directorio donde quieres guardar las llaves, te sugiere un directorio por defecto que puedes aceptar dando enter sin poner nada.
+      Luego te pedira un password para darles mas seguridad. Pudes no ponerle nada.
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

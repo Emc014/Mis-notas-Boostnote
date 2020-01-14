@@ -1,0 +1,25 @@
+createdAt: "2020-01-13T21:06:13.578Z"
+updatedAt: "2020-01-13T21:40:23.967Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: Ver commits de forma Grafica"
+tags: [
+  "Git"
+  "Grafica"
+]
+description: "GIT: Ver commits de forma Grafica"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: '''
+      $git log --all --graph
+      
+      //Modo comprimido
+      $git log --all --graph --decorate --oneline
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

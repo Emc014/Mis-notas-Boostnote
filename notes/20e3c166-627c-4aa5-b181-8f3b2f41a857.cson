@@ -1,0 +1,23 @@
+createdAt: "2020-01-13T17:23:47.397Z"
+updatedAt: "2020-01-13T18:01:18.942Z"
+type: "SNIPPET_NOTE"
+folder: "16e8c7eaf9f61d8cb104"
+title: "TERMINAL: Agregar llaves publicas a servidor Ssh"
+tags: [
+  "Agregar"
+  "Llave_Privada"
+  "Llave_Publica"
+  "Ssh"
+  "Terminal"
+]
+description: "TERMINAL: Agregar llaves publicas a servidor Ssh"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: "$ ssh-add ~/.ssh/id_rsa"
+  }
+]
+isStarred: false
+isTrashed: false
