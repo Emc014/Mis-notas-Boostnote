@@ -1,0 +1,21 @@
+createdAt: "2020-01-14T00:03:36.580Z"
+updatedAt: "2020-01-14T00:16:35.297Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: Interfaz Grafica de git"
+tags: [
+  "Git"
+  "Grafica"
+  "Interfaz"
+]
+description: "GIT: Interfaz Grafica de git"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: "$gitk"
+  }
+]
+isStarred: false
+isTrashed: false

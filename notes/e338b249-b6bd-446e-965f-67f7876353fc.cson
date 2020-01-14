@@ -1,0 +1,18 @@
+createdAt: "2020-01-14T00:26:45.207Z"
+updatedAt: "2020-01-14T00:28:55.844Z"
+type: "MARKDOWN_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: Configurar múltiples colaboradores en un repositorio de GitHubPor defecto, cualquier persona puede clonar o descargar tu proyecto desde GitHub, pero no pueden crear commits, ni ramas, ni nada."
+tags: [
+  "Colaboradores"
+  "Git"
+  "GitHub"
+]
+content: '''
+  <h1>GIT: Configurar múltiples colaboradores en un repositorio de GitHub</h1><div class="Description-agenda"><p>Por defecto, cualquier persona puede clonar o descargar tu proyecto desde GitHub, pero no pueden crear commits, ni ramas, ni nada.</p>
+  <p>Existen varias formas de solucionar esto para poder aceptar contribuciones. Una de ellas es añadir a cada persona de nuestro equipo como colaborador de nuestro repositorio.</p>
+  <p>Solo debemos entrar a la configuración de colaboradores de nuestro proyecto (<code>Repositorio &gt; Settings &gt; Collaborators</code>) y añadir el email o username de los nuevos colaboradores.</p></div><div class="Description-teacher"><figure class="Description-teacherImg"><img alt="John Freddy Vega" src="https://static.platzi.com/media/avatars/freddier_b394e3f6-50c0-4b9e-a4b2-95d2b9ca55fd.jpg" width="60" height="60"></figure><div class="Description-teacherInfo"><div><strong><!-- react-text: 9584 -->John Freddy Vega<!-- /react-text --><a href="" class="Description-teacherTwt"></a></strong></div><div class="Description-teacherDegree"></div></div></div></div>
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

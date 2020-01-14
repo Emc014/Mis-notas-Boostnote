@@ -1,0 +1,13 @@
+createdAt: "2020-01-14T01:25:45.469Z"
+updatedAt: "2020-01-14T01:26:25.933Z"
+type: "MARKDOWN_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "Flujo de trabajo profesional con Pull requestsEn un entorno profesional normalmente se bloquea la rama master, y para enviar código a dicha rama pasa por un code review y luego de su aprobación se unen códigos con los llamados merge request."
+tags: []
+content: '''
+  <div class="Description"><h1>Flujo de trabajo profesional con Pull requests</h1><div class="Description-agenda"><p>En un entorno profesional normalmente se bloquea la rama <strong>master</strong>, y para enviar código a dicha rama pasa por un <em>code review</em> y luego de su aprobación se unen códigos con los llamados <em>merge request</em>.</p>
+  <p>Para realizar pruebas enviamos el código a servidores que normalmente los llamamos <em>staging develop</em> (servidores de pruebas) luego de que se realizan las pruebas pertinentes tanto de código como de la aplicación estos pasan a el servidor de producción con el ya antes mencionado <em>merge request</em>.</p></div><div class="Description-teacher"><figure class="Description-teacherImg"><img alt="John Freddy Vega" src="https://static.platzi.com/media/avatars/freddier_b394e3f6-50c0-4b9e-a4b2-95d2b9ca55fd.jpg" width="60" height="60"></figure><div class="Description-teacherInfo"><div><strong><!-- react-text: 31010 -->John Freddy Vega<!-- /react-text --><a href="" class="Description-teacherTwt"></a></strong></div><div class="Description-teacherDegree"></div></div></div></div>
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

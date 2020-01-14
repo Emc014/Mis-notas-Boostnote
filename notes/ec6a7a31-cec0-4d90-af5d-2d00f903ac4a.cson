@@ -1,0 +1,38 @@
+createdAt: "2020-01-13T23:29:57.488Z"
+updatedAt: "2020-01-13T23:50:49.390Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: tag o etiqueta para commits"
+tags: [
+  "Etiquetas"
+  "Git"
+  "tag"
+]
+description: "GIT: tag o etiqueta para commits"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: '''
+      //Crear la etiqueta
+      $ git tag -a nombreEtiqueta -m "Mensaje de la etiqueta" idCommit
+      
+      //ver las etiquetas
+      $git tag
+      
+      //ver etiquetas y sus respectivos idCommits
+      $git show-ref --tags
+      
+      //Subir tags al remoto
+      $git push origin --tags
+      
+      //Borrar etiqueta
+      $git tag -d nombreTag
+      $git push otigin --tags
+      $git push origin :refs/tags/dormido
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

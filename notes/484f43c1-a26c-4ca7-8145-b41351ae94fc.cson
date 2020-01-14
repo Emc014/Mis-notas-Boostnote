@@ -1,0 +1,21 @@
+createdAt: "2020-01-14T00:00:33.962Z"
+updatedAt: "2020-01-14T00:16:37.210Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: Ver Ramas de forma grafica"
+tags: [
+  "Git"
+  "Grafica"
+  "Ramas"
+]
+description: "GIT: Ver Ramas de forma grafica"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: "$git show-branch --all"
+  }
+]
+isStarred: false
+isTrashed: false

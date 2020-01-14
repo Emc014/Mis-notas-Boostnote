@@ -1,0 +1,22 @@
+createdAt: "2020-01-14T00:16:14.651Z"
+updatedAt: "2020-01-14T00:18:34.833Z"
+type: "SNIPPET_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "GIT: Clonar un repositorio"
+tags: [
+  "Clonar"
+  "Git"
+  "Remoto"
+  "Repositorio"
+]
+description: "GIT: Clonar un repositorio"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: "$git clone http://direcionDelRepositorio"
+  }
+]
+isStarred: false
+isTrashed: false
