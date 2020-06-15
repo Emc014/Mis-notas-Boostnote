@@ -1,0 +1,420 @@
+createdAt: "2020-05-07T22:41:20.467Z"
+updatedAt: "2020-05-08T21:47:45.077Z"
+type: "MARKDOWN_NOTE"
+folder: "78f114a051b5fbbdc96b"
+title: "📋 📘 Boostnote Markdown CheatSheet"
+tags: []
+content: '''
+  # 📋 📘 Boostnote Markdown CheatSheet
+  
+  La hoja de trucos de la función Markdown que falta para [Boostnote] (https://boostnote.io/).  
+  Intenta dar un breve resumen de todas las opciones de formato que están disponibles en Boostnote.
+  
+  ---
+  : advertencia: solo funciona en Boostnote.  
+  : point_right: Abra la [Página de vista previa] (README.md) para ver cómo se representa.  
+  : u5408: [Versión china] (README_zh_cn.md)
+  
+  ---
+  ###: fuente_de_información: Cómo agregarlo a Boostenote
+  1. Abra la versión [RAW] (https://raw.githubusercontent.com/TobseF/boostnote-markdown-cheatsheet/master/BOOSTNOTE_MARKDOWN_CHEAT_SHEET.md) de este archivo. 
+  2. Cópielo con [[crtl]] + [[a]] y [[crtl]] + [[c]]
+  3. Cree una _Markdown Note_ vacía en Bosstnote y péguela con  
+     [[crtl]] + [[shift]] + [[v]]  
+     (El * shift * es importante para evitar escapar)
+  ---
+  
+  <! - Tabla de contenido generada automáticamente (TOC) ->
+  
+  [TOC]
+  
+  <! - tocstop ->
+  > * Tabla de contenidos generada por: *
+  > `Atajo:` [[Mayús]] + [[ctrl]] + [[T]]
+  > `Menú:` _File / Generate / Update Markdown TOC_
+  
+  ## Formato de texto
+  
+  ### Énfasis
+  * Tipo cursiva *
+  **Negrita**
+  ~~ Negativo ~~
+  `destacado`
+  
+  ### Abreviatura
+  La especificación HTML
+  es mantenido por el W3C.
+  * [HTML]: Lenguaje de marcado de hipertexto
+  * [W3C]: Consorcio de la World Wide Web
+  
+  ### Superíndice
+  H ~ 2 ~ 0
+  29 ^ th ^
+  
+  ### Enlace
+  `Enlace simple`: https://en.wikipedia.org/wiki/Microsoft_Notepad  
+  `Enlace con nombre`: [Boostnote] (https://boostnote.io)  
+  `Enlace de información sobre herramientas`: [Desplázame] (https://boostnote.io" Una información sobre herramientas genial ")  
+  `Saltar a línea`: [Ir a línea 200] (: línea: 200)
+  
+  ### Casilla de verificación
+  - [x] Tarea 1
+  - [ ] Tarea 2
+  
+  ### Cotización
+  > Cita
+  > Cita Cita
+  
+  ### Notas al pie
+  Aquí hay una referencia a pie de página, [^ 1] y otra. [^ Nota larga]
+  
+  [^ 1]: Aquí está la nota al pie.
+  [^ nota larga]: Aquí hay uno con múltiples bloques.
+  
+      Los párrafos posteriores están sangrados para mostrar que
+  pertenecer a la nota al pie anterior.
+  
+  ### Html
+  <span style = "color: green"> Texto verde </span>
+  <span style = "color: yellow"> Texto amarillo </span>
+  <u> subrayado </u>
+  > HTML solo funciona si habilitas:
+  > Menú: _Preferencias / Interfaz / Vista previa / Desinfección / Permitir etiquetas html peligrosas_
+  
+  ### Emoticones
+  Emoji por shortcode:: libros:: memo:: ojos:
+  Emoji de Unicode: 📚 📝 👀
+  [lista completa de emojis] (https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+  
+  ### Flechas inteligentes
+  -> →  
+  <- ←  
+  <-> ↔  
+  ==> ⇒  
+  <== ⇐  
+  <==> ⇔
+  
+  > Las flechas inteligentes solo funcionan si habilita:  
+  > Menú: _Preferencias / Interfaz / Vista previa / Desinfección / Convertir flechas de texto en hermosos signos_  
+  > ⚠ Esto interferirá con el uso de comentarios HTML en su Markdown.
+  
+  ### Pulsaciones de teclas
+  [[Esc]] [[z]]
+  
+  ### Código fuente
+  
+  `` `js
+  Renderizado: función () {
+    Regreso (
+      <Div className = "commentBox">
+        <H1> Comentarios </ H1>
+        <Datos de la lista de comentarios = {this.state.data} />
+        <CommentForm onCommentSubmit = {this.handleCommentSubmit} />
+      </Div>
+    );
+  }
+  `` `
+  
+  ## Estructuración
+  
+  ### Lista
+  * Lista 1
+  * Lista 2
+  1. Primer elemento de la lista ordenada
+   Segunda linea
+  2. Otro artículo
+  
+  ### Lista de definiciones
+  
+  Termino 1
+  ~ Definición 1
+  Plazo 2
+  ~ Definición 2a
+  ~ Definición 2b
+  Plazo 3
+  ~ 
+  Termino 1
+  : Definición 1
+  Término 2 con \\ * marcado en línea \\ *
+  : Definición 2
+  
+           {algún código, parte de la definición 2}
+      Tercer párrafo de la definición 2.
+  
+  ### Mesa
+  El | Tablas | Son | Genial |
+  El | : ------------ |: -------------: | -----: |
+  El | col 3 es | alineado a la derecha | $ 1600 |
+  El | col 2 es | centrado | $ 12 |
+  El | rayas de cebra | son aseados | $ 1 |
+  El | El | Agrupación ||
+  
+  
+  | Primer encabezado | Segundo encabezado | Tercer encabezado |
+  El | ------------ | : -----------: | -----------: |
+  | Contenido | * Celda larga * ||
+  | Contenido | ** Celda ** | Celular |
+  | Nueva sección | Más | Datos |
+  | Y más | Con un '\\\\ |' escapado ||
+  [Descripción de la tabla]
+  
+  Markdown | Menos | Bonita
+  --- | --- | ---
+  * Todavía * | `renders` | **bien**
+  1 | 2 | 3
+  
+  > Debe haber al menos 3 guiones que separen cada celda del encabezado.
+  Las tuberías externas (|) son opcionales y no es necesario que realice
+  Markdown sin procesar alinea bastante. También puede usar Markdown en línea.
+  
+  ### Bloque
+  	Some Infor First Line - Lorem ipsum dolor sit amet, consetetur sadipscing eli
+  	Some Infor Second Line - Lorem ipsum dolor sit amet, consetetur sadipscing eli
+  	Some Infor Third Line - Lorem ipsum dolor sit amet, consetetur sadipscing eli
+  
+  ### Doblar
+  <detalles> <summary> Boostnote es un bloc de notas correspondiente a la notación de rebajas, que es una herramienta para organizar y compartir información. </summary>
+  - Características - <br>
+  · Función de búsqueda para encontrar notas en una sola toma
+  · Admite notación de rebajas <br>
+  · Soporte para Mac, Windows, Linux, iOS, Android <br>
+  · Exportar e importar a formato de texto sin formato (.txt), Markdown (.md) <br>
+  · Admite guardar PDF <br>
+  · Se puede usar sin conexión <br>
+  · Sincronizar con Dropbox, etc. con la configuración <br>
+  * Admite colores de tema y numerosas fuentes <br>
+  </details>
+  
+  ### Linea horizontal
+  Las líneas horizontales tienen varias formas de escritura.
+  * * *
+  ***
+  ---
+  
+  ### Advertencia
+  
+  !!! nota Nota
+  Lorem ipsum
+  !!!
+  
+  !!! pista Pista
+  Lorem ipsum
+  !!!
+  
+  !!! pregunta Pregunta
+  Lorem ipsum
+  !!!
+  
+  !!! cita
+  Lorem ipsum
+  !!!
+  
+  !!! resumen resumen
+  Lorem ipsum
+  !!!
+  
+  !!! atención Atención
+  Lorem ipsum
+  !!!
+  
+  !!! precaución Precaución
+  Lorem ipsum
+  !!!
+  
+  !!! error Error
+  Lorem ipsum
+  !!!
+  
+  !!! peligro PELIGRO
+  Lorem ipsum
+  !!!
+  
+  ## Imagen
+  `Predeterminado:`! [Título] (https://raw.githubusercontent.com/BoostIO/Boostnote/master/resources/app.png)
+  `Resized:`! [Resized] (https://raw.githubusercontent.com/BoostIO/Boostnote/master/resources/app.png = 50x)
+  `Streched:`! [Streched] (https://raw.githubusercontent.com/BoostIO/Boostnote/master/resources/app.png = 50x20)
+  `Por referencia:`! [Estilo referenciado] [logo]
+  
+  [logotipo]: https://raw.githubusercontent.com/BoostIO/Boostnote/master/resources/app.png "Logotipo de Boostnote"
+  
+  ### Galería
+  `` `galería (42h)
+  https://source.unsplash.com/F8mUf0hjf74/1024x600
+  https://source.unsplash.com/-StqtXU35cA/1024x600
+  https://source.unsplash.com/BLTcKiKXbzU/1024x600
+  https://source.unsplash.com/qh1J3d4QzgA/1024x600
+  https://source.unsplash.com/rpvhOzyv2jM/1024x600
+  `` `
+  > Use `gallery (autoplay = 2000)` para una rotación de imagen de 2 segundos.
+  
+  ## Látex
+  $$ [x ^ n + y ^ n = z ^ n] $$
+  $$ \\ frac {d} {dx} \\ left (\\ int_ {0} ^ {x} f (u) \\, du \\ right) = f (x). $$
+  
+  ## Integraciones de diagramas
+  
+  ### [Diagrama de flujo] (http://flowchart.js.org/)
+  `` diagrama de flujo
+  st => inicio: Inicio:> http://www.google.com [en blanco]
+  e => fin:> http://www.google.com
+  op1 => operación: Mi operación
+  sub1 => subrutina: Mi subrutina
+  cond => condition: Yes or No ?:> http://www.google.com
+  io => inputoutput: captura algo ...
+  st-> op1-> cond
+  cond (sí) -> io-> e
+  cond (no) -> sub1 (derecha) -> op1
+  `` `
+  
+  ### [Secuencia] (https://bramp.github.io/js-sequence-diagrams/)
+  `` `secuencia
+  Título: Aquí hay un título
+  A -> B: línea normal
+  B -> C: línea discontinua
+  C - >> D: Flecha abierta
+  D - >> A: Flecha abierta discontinua
+  `` `
+  
+  ### [sirena] (https://mermaidjs.github.io/)
+  `` `sirena
+  diagrama de secuencia
+  bucle todos los días
+      Alice - >> John: Hola John, ¿cómo estás?
+      John - >> Alice: ¡Genial!
+  final
+  `` `
+  
+  ### Gráfico
+  
+  `` `gráfico (yaml)
+  tipo: pastel
+  datos:
+    etiquetas:
+    - Rojo
+    - azul
+    - Amarillo
+    conjuntos de datos:
+    - datos:
+      - 300
+      - 50
+      - 100
+      color de fondo:
+      - "# FF6384"
+      - "# 36A2EB"
+      - "# FFCE56"
+      hoverBackgroundColor:
+      - "# FF6384"
+      - "# 36A2EB"
+      - "# FFCE56"
+  `` `
+  
+  ### [Ditaa] (http://ditaa.sourceforge.net/)
+  
+  @startditaa
+  / -------- \\ + ------- +
+  | cAAA + --- + Versión |
+  El | Datos | El | V3
+  El | Base | | CRED {d} |
+  El | {s} | + ------- +
+  \\ --- + ---- /
+  
+  
+  + --- + ----- + + ---------- +
+  El | cBLU | El | {io} |
+  El | Ext-Foo | El | S-ATA |
+  El | + ----- + | cFEA |
+  El | | cPNK | + ---------- +
+  El | El | Foo |
+  + --- + ----- +
+  @endditaa
+  
+  @startditaa
+                     + ------------- +
+                     El | Asciidoctor | ------- +
+                     El | diagrama | El |
+                     + ------------- + | PNG fuera
+                         ^ |
+                         El | ditaa en |
+                         El | v
+   + -------- + + -------- + ---- + / --------------- \\
+   El | El | - + Asciidoctor + -> | El |
+   El | Texto | + ------------- + | Hermosa |
+   | Documento | El | !¡magia! El | El | Salida |
+   El | {d} | El | El | El | El |
+   + --- + ---- + + ------------- + \\ --------------- /
+       : ^
+       El | Mucho trabajo |
+       + ----------------------------------- +
+  @endditaa
+  
+  ### [Planta UML] (http://plantuml.com/)
+  
+  #### [Diagrama de clase] (https://plantuml.com/class-diagram)
+  @startuml
+  Object <| - ArrayList
+  Objeto: + igual ()
+  ArrayList: - Object [] elementData
+  ArrayList: + size ()
+  @enduml
+  
+  #### [Diagrama de actividad] (https://plantuml.com/activity-diagram-beta)
+  @startuml
+  comienzo
+  :Hola Mundo;
+  : Esto está en definido en
+  varias ** líneas **;
+  detener
+  @enduml
+  
+  #### [Diagrama de secuencia] (https://plantuml.com/sequence-diagram)
+  @startuml
+  Alice -> "Bob ()": Hola
+  "Bob ()" -> "Esto es muy \\ n largo" como Largo
+  'También puedes declarar:
+  '"Bob ()" -> Siempre que "Esto sea muy \\ n largo"
+  Largo -> "Bob ()": ok
+  @enduml
+  
+  #### [MindMap] (https://plantuml.com/mindmap-diagram)
+  @startmindmap
+  * Debian
+  ** Ubuntu
+  *** Linux Mint
+  *** Kubuntu
+  *** Lubuntu
+  *** KDE Neon
+  ** LMDE
+  ** SolydXK
+  ** SteamOS
+  ** Raspbian con un nombre muy largo
+  *** <s> Raspmbc </s> => OSMC
+  *** <s> Raspyfi </s> => Volumio
+  @endmindmap
+  
+  #### [Estructura de desglose del trabajo] (https://plantuml.com/wbs-diagram)
+  @startwbs
+  + Proyecto
+   + Primera parte
+    + Tarea 1.1
+     - LeftTask 1.2
+     + Tarea 1.3
+    + Parte dos
+     + Tarea 2.1
+     + Tarea 2.2
+     -_ Tarea 2.2.1 A la izquierda sin caja
+     -_ Tarea 2.2.2 A la izquierda sin caja
+     + _ Tarea 2.2.3 A la derecha sin caja
+  @endwbs
+  
+  #### [Diagrama de Gantt] (https://plantuml.com/gantt-diagram)
+  @startgantt
+  [Diseño de prototipo] dura 10 días
+  [Prototipo de código] dura 10 días
+  [Escribir pruebas] dura 5 días
+  [Prototipo de código] comienza al final del [Diseño de prototipo]
+  [Escribir pruebas] comienza en el inicio de [Código prototipo]
+  @endgantt
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: true

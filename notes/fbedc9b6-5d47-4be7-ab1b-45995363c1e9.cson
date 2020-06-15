@@ -1,0 +1,45 @@
+createdAt: "2020-05-10T00:36:36.580Z"
+updatedAt: "2020-05-10T03:47:26.474Z"
+type: "MARKDOWN_NOTE"
+folder: "ce3e5ebc562f91b2b933"
+title: "Creacion de promesas"
+tags: [
+  "Promesa"
+  "JavaScript"
+]
+content: '''
+  # Creacion de promesas
+  ---
+  Creando la promesa
+  -
+  La promesa consiste en una funcion con dos calback el primero es el que usaremos en caso de quela tarea se aya resuelto con exito y el segundo calback lo usaremos en caso de que fracase.
+  
+  ```js
+  let Promesa= new Promise((resuelto,error)=>{
+      peticionAlServidor(r=>{
+        if(r){
+          resuelto(r)
+        }
+        else{
+          error('el servidor no devolvio datos')
+        }
+      })
+  })
+  ```
+  ---
+  Consumiendo la promesa
+  -
+  Consumir la promesa es muy sencillo, solo llamamos a la promesa y usamos el metodo **'.then()'** para capturar el exito y **'.catch()'** para capturar el fracaso de la promesa.
+  
+  ```js
+  Promesa.then(d=>{
+    console.log(`la promesa devolvio ${d}`)
+  }).catch(e=>{
+    //imprimimos en consola el error
+    console.error(e)
+  })
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

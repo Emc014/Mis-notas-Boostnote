@@ -1,0 +1,35 @@
+createdAt: "2020-05-07T21:04:31.923Z"
+updatedAt: "2020-05-08T14:18:47.860Z"
+type: "MARKDOWN_NOTE"
+folder: "8f30e8f5ed1d7dbfdd15"
+title: "8 Ordenado de consulta"
+tags: [
+  "FireStore"
+]
+content: '''
+  ## 8 Ordenado de consulta
+  
+  Podemos ordenar la consulta de mayor a menor, alfabeticamente,etc.
+  
+  ```js
+  allPosts(){
+    this.db.collection('post').orderBy('titulo','asc').get()
+    .then(res=>{
+      res.forEach(e=>{
+          console.log(e)
+      })
+    })
+    .catch(error=>{
+      console.error(error)
+    })
+  }
+  ```
+  como podemos ver usamos **.orderBy()** para ordenar los resultados, el primer parametro es el campo por el que queremos ordenar, en este caso es el **titulo** el segundo campo es el que indica el orden, en este caso **asc (*ascendente*)** tambienpodria ser **desc (*descendente*)**. Se puden ordenar por mas de un campo poniendo otro **.orderBy()**
+  
+  ```js
+  let byStateByPop = citiesRef.orderBy('state').orderBy('population', 'desc');
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

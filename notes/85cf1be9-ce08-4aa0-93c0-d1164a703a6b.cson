@@ -1,0 +1,27 @@
+createdAt: "2020-03-28T19:30:40.023Z"
+updatedAt: "2020-03-28T20:12:37.028Z"
+type: "MARKDOWN_NOTE"
+folder: "16e8c7eaf9f61d8cb104"
+title: "Terminal: Alias o etiquetas para resumir comandos"
+tags: [
+  "Alias"
+  "Comando"
+  "Etiquetas"
+  "Resumir"
+  "Terminal"
+]
+content: '''
+  # Terminal: Alias o etiquetas para resumir comandos
+  ---
+  
+  Podemos crear alias que nos abrevien comandos muy complejos o dificiles de recordar.
+  
+  ```bash
+  $ alias nombreAlias "comando"
+  ```
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

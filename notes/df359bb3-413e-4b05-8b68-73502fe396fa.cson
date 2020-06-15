@@ -1,0 +1,35 @@
+createdAt: "2020-05-07T14:32:58.328Z"
+updatedAt: "2020-05-07T15:18:14.168Z"
+type: "MARKDOWN_NOTE"
+folder: "8f30e8f5ed1d7dbfdd15"
+title: "1 Creacion de instancia de firestore"
+tags: [
+  "FireStore"
+  "Crear_Instancia"
+  "Iniciar"
+]
+content: '''
+  ## 1 Creacion de instancia de firestore
+  
+  Para comenzar a trabajar con firestore lo primero que tenemos que hacer es crear una instancia de firestore. esto lo hacemos de la siguiente manera:
+  
+  ```js
+    const db = firebase.firestore();
+    const settings = { timestampInSnapshots : true};
+    db.settings(settings)
+  ```
+  o
+  
+  ```js
+   class Post{
+      constructor(){
+        this.db = firebase.firestore();
+        const settings = { timestampInSnapshots : true};
+        this.db.settings(settings)
+      }
+   }
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

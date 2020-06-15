@@ -1,5 +1,5 @@
 createdAt: "2020-01-13T17:18:32.410Z"
-updatedAt: "2020-01-13T17:22:00.365Z"
+updatedAt: "2020-03-29T15:39:03.304Z"
 type: "SNIPPET_NOTE"
 folder: "16e8c7eaf9f61d8cb104"
 title: "TERMINAL: Verificar que el servidor ssh este activo"
@@ -25,4 +25,4 @@ snippets: [
   }
 ]
 isStarred: false
-isTrashed: false
+isTrashed: true

@@ -1,0 +1,28 @@
+createdAt: "2020-03-15T19:49:54.451Z"
+updatedAt: "2020-04-10T18:29:41.910Z"
+type: "SNIPPET_NOTE"
+folder: "ce3e5ebc562f91b2b933"
+title: "Detectar que elemento disparo el evento"
+tags: [
+  "JavaScript"
+  "Evento"
+  "Event"
+  "capturar"
+  "Elemento"
+]
+description: "Detectar que elemento disparo el evento"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "JavaScript"
+    content: '''
+      (e)=>{
+        //target devuelve el elemento que lanzo el evento
+        let elemento=e.target
+      }
+    '''
+  }
+]
+isStarred: false
+isTrashed: true

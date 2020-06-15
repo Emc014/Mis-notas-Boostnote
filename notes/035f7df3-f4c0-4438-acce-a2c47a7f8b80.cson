@@ -1,0 +1,72 @@
+createdAt: "2020-05-07T21:15:46.684Z"
+updatedAt: "2020-05-08T14:18:42.675Z"
+type: "MARKDOWN_NOTE"
+folder: "8f30e8f5ed1d7dbfdd15"
+title: "9 Limitar y paginar los resultados"
+tags: [
+  "FireStore"
+]
+content: '''
+  ## 9 Limitar y paginar los resultados
+  
+  Podemos limitar la cantidad de resultados que devuelven las consultas de la siguiente manera:
+  
+  ```js
+  consulta(consulta){
+    this.db.collection('post').limit(3).get()
+    .then(d=>{
+      d.forEach(e=>{
+        console.log(e)
+      })
+    })
+    .catch(error=>{
+      console.error(error)
+    })
+  }
+  ```
+  Tambien podemos pagina los resultados para evitar la carga der recursos inesesarios, esto lo hacemos usando
+  
+  .startAt(A) 
+    ~ Indica apartir de que elemento deve empezar a devolver elementos por ejemplo si le pasamos **A** se  mostrara **'A-Z'**
+  
+  .startAfter(A) 
+    ~ Indica a partir de que elemento deve empezar a devolver sin incluir el indicado, por ejemplo si le pasamos **A** se mostrara **'B-Z'**
+  
+  .endAt(Z)
+  ~ Indica hasta que elemento se deve enviar por ejemplo al pasarle **z** se mostrara **'A-Z'**.
+  
+  .endBefore
+  ~ Indica hasta que elemento se deve mostrar exluyendo el indicado, por ejemplo al pasarle **Z** se devolvera **'A-Y'**
+  
+  ```js
+  paginar(citi){
+     this.db.collections('blogs').startAt(10).endAt(20).get()
+     .then(d=>{
+        d.forEarch(e=>{
+            console.log(e)
+        })
+     })
+     .catch(error=>{
+        console.error(error)
+     })
+  }
+  ```
+  en el ejemplo anterios solicitamos que devuelva del blog 10 al 20.
+  
+  Podemos tambien tomar las instantañas de la consulta anterior como referencia para la siguiente paginacion:
+  
+  ```js
+    let docRef = db.collection('blogs').doc(id);
+    return docRef.get().then(snapshot => {
+      let startAtSnapshot = db.collection('blogs')
+        .orderBy('fecha')
+        .startAt(snapshot);
+  
+      return startAtSnapshot.limit(10).get();
+    });
+  ```
+  en este ejemplo se devolveran los 10 blogs mas nuevos que el blog guardado **'docRef'**.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

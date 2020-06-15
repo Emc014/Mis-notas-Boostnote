@@ -1,0 +1,21 @@
+createdAt: "2020-03-28T20:13:44.066Z"
+updatedAt: "2020-03-28T20:18:05.965Z"
+type: "MARKDOWN_NOTE"
+folder: "16e8c7eaf9f61d8cb104"
+title: "TERMINAL: Agregar llaves publicas a servidor Ssh"
+tags: []
+content: '''
+  # TERMINAL: Agregar llaves publicas a servidor Ssh
+  ---
+  
+  Para agregar una llave al servidor **ssh** ingresamos por consola el comandoc **ssh-add** seguido de la ruta de la llave.
+  
+  ```bash
+    $ ssh-add ~/.ssh/id_rsa
+  ```
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

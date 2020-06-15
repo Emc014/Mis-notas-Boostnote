@@ -1,0 +1,54 @@
+createdAt: "2020-03-11T20:30:03.617Z"
+updatedAt: "2020-03-13T18:53:22.915Z"
+type: "SNIPPET_NOTE"
+folder: "9ebba7a6df45111b7f32"
+title: "Dar alta de usuarios atravez de Firebase con Email y Password"
+tags: [
+  "Firebase"
+  "Crear_Cuenta_Email"
+  "Email"
+  "Alta"
+  "Usuario"
+  "oauth"
+]
+description: "Dar alta de usuarios atravez de Firebase con Email y Password"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "JSX"
+    content: '''
+      //Creamos el usuario con el Email y la Contraseña
+      firebase.auth().createUserWithEmailAndPassword(email,password,nombre)
+      .then(Result=>{
+        //se cambia el nombre por el nombre que ingrese el usuario
+        Result.user.updateProfile({
+          displayName:nombre
+        })
+        //Creamos el enlace de redireccion para el boton luego de que el usuario confirme
+        //el Email.
+        const Redirect={
+          url:'Url para la redireccion aqui'
+        }
+        //Solicitamos verificar el email
+        Result.user.sendEmailVerification(Redirect)
+        //Capturamos un posible error
+        .catch(error=>{
+          console.error(error)
+        })
+        //cerramos la secion creada para que el usuario no inicie hasta que confirme el Email
+        firebase.auth().signOut()
+        
+        //Informamos que ya solo falta verificar el email
+        comfirm('Ya casi!! Confirma tu Email para terminar...')
+        
+      })
+      //en caso de error lo capturamos
+      .catch(error=>{
+        console.error(error)
+      })
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

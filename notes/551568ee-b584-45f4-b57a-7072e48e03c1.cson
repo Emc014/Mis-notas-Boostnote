@@ -1,0 +1,28 @@
+createdAt: "2020-05-07T20:23:10.043Z"
+updatedAt: "2020-05-08T14:19:04.520Z"
+type: "MARKDOWN_NOTE"
+folder: "8f30e8f5ed1d7dbfdd15"
+title: "5 Adicion de campos a documentos existentes"
+tags: [
+  "FireStore"
+]
+content: '''
+  ## 5 Adicion de campos a documentos existentes
+  
+  Podemos acregar campos a documentos existentes. Si usamos el metodo **.set()** sin mas, sobrescribiremos todo los datos, para evitar esto tenemos que hacer uso de **merge**:
+  
+  ```js
+  adicionarCampo(imagen,id){
+    this.db.collection('posts').doc(id).set(
+      {
+        imagenLink:imagen
+      },
+      {merge:true}
+    )
+  }
+  ```
+  como podemos ver al agregar **merge:*true*** le indicamos que no sobreescriba todo el documento sino que le añada el nuevo campo.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

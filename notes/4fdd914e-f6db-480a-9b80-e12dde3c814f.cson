@@ -1,0 +1,66 @@
+createdAt: "2020-05-07T19:54:30.346Z"
+updatedAt: "2020-05-07T20:20:52.947Z"
+type: "MARKDOWN_NOTE"
+folder: "8f30e8f5ed1d7dbfdd15"
+title: "4 batch multiple operaciones simultaneas."
+tags: [
+  "batch"
+  "FireStore"
+]
+content: '''
+  ## 4 batch multiple operaciones simultaneas.
+  
+  podemos realizar multiples operaciones de forma simultanea gracias a **batch**.
+  
+  ```js
+  accionesBatch(){
+    const batch = this.db.batch()
+  
+    const ref1 = this.db.collection('post').doc('123456789')
+  c  
+    const ref2 = this.db.collection('post').doc('987654321')
+    batch.set(ref2,{titulo:'123456789'})
+    
+    const ref3 = this.db.collection('post').doc('456789')
+    batch.set(ref2,{titulo:'456789'})
+    
+    batch.commit()
+    .then(()=>{
+      console.log('exito en el batch')
+    })
+    .catch(error=>{
+      console.error(error)
+    })
+  }
+  ```
+  como se puede ver primero creamos la instancia de **batch**:
+  
+  ```js
+    const batch = this.db.batch()
+  ```
+  a continuacion creamos las referencias a los documentos a modificar:
+  
+  ```js
+    const ref1 = this.db.collection('post').doc('123456789')
+  ```
+  luego agregamos la referencia al batch junto con los valores a modificar con **.set()**:
+  
+  ```js
+    batch.set(ref1,{titulo:'123456789'})
+  ```
+  Aunque en este ejemplo usamos modificamos los documentos con **.set()** cualquier otra accion es valida como por ejemplo el borrar,actualizar,crear,etc.
+  
+  Por ultimo hacemos el **commit** al **batch** y capturamos el exito o el error:
+  ```js
+    batch.commit()
+    .then(()=>{
+      console.log('exito en el batch')
+    })
+    .catch(error=>{
+      console.error(error)
+    })
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

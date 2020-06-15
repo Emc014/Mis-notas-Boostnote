@@ -1,0 +1,21 @@
+createdAt: "2020-02-22T14:14:35.886Z"
+updatedAt: "2020-04-06T20:39:01.338Z"
+type: "SNIPPET_NOTE"
+folder: "fd12c1e51d6efbb99ed8"
+title: "Crear aplicacion con 'create-react-app'"
+tags: [
+  "create-react-app"
+  "Crear"
+  "React"
+]
+description: "Crear aplicacion con 'create-react-app'"
+snippets: [
+  {
+    linesHighlighted: []
+    name: "Terminal"
+    mode: "Shell"
+    content: "npx create-react-app 'nombreapp'"
+  }
+]
+isStarred: false
+isTrashed: true

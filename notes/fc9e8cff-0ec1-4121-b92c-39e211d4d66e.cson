@@ -1,0 +1,94 @@
+createdAt: "2020-04-06T21:16:25.716Z"
+updatedAt: "2020-04-06T21:49:27.169Z"
+type: "MARKDOWN_NOTE"
+folder: "fd12c1e51d6efbb99ed8"
+title: "Uso de react context."
+tags: []
+content: '''
+  # Uso de react context.
+  ---
+  
+  **React Context** es un a hooks que nos permite la creacion de estados globales. Osea los estados que se crean con react context no hay que pasarlos como parametro en cada componente y se puede acceder a ellos sin importar la profundidad del anidamiento de los componentes.
+  
+  ---
+  
+  ## Creando un Contexto Global.
+  
+  Para crear un contecto global, lo primero que tenemos que hacer es crear un archivo al cual podemos llamar **Context.jsx** y en su interior el codigo sera similar a este:
+  
+  ```jsx
+  import {createContext} from 'react';
+  // Importamos la funcion createContext de react
+  const Context= createContext();
+  //Creamos un contexto usando la funcion createContext
+  export default Context;
+  //Exportamos el contexto
+  ```
+  
+  A continuacion tenemos que servir el contexto para que puedan ser consumidos por los componentes.
+  En este ejemplo vamos a servir el contexto desde el archivo rais **app.jsx**
+  
+  ```jsx
+  import React from 'react';
+  import Context from './Context.jsx';
+  //importamos el contexto que creamos anteriormente
+  import Inicio from './Inicio.jsx';
+  import Header from './Header.jsx'
+  
+  
+  const App=()=>{
+    const [estadoGlobal,setEstadoGlobal]= React.useState({Nombre:'Ezequiel'})
+    return(
+    <Context.Provider value={{GetG:estadoGlobal,SetG:setEstadoGlobal}}>
+      <Inicio/>
+      <Header/>
+    </Context.Provider>
+  )}
+  
+  export default App;
+  ```
+  como podemos ver el el ejemplo anterior usamos **Context.Provider** para proveer el estado global y le pasamos el parametro **value** con los estados Globales en forma de objeto.
+  
+  Por ultimo vamos a consumir los valores de el contexto global desde dos componente anidados:
+  
+  ```jsx
+  import React, {useContext} from 'react';
+  import Context from './Context.jsx';
+  
+  
+  const Inicio=()=>{
+      let {GetG,SetG}=useContext(Context)
+      return(
+          <>
+              <div>El nombre actual es: {GetG.Nombre}</div>
+              <div onClick={()=>SetG({Nombre:'Tobias'})}>Tobias</div>
+              <div onClick={()=>SetG({Nombre:'Ezequiel'})}>Ezequiel</div>
+          </>
+      )
+  }
+  
+  
+  export default Inicio;
+  ```
+  
+  ```jsx
+    import React, {useContext} from 'react';
+    import Context from './Context';
+  
+    const Header=()=>{
+     let {GetG}=useContext(Context)
+        console.log(GetG.Nombre)
+        return(
+        <div>{GetG.Nombre}</div>
+        )
+    }
+  
+    export default Header;
+  ```
+  
+  como vemos en los ejemplos anteriores usamos el **hooks: useContext** pasandole como parametro el contexto para acceder a los datos del contexto global.
+  De esta forma ya podremos ver el valor del contexto y de actualizarlo desde cualquier parte de la aplicacion.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

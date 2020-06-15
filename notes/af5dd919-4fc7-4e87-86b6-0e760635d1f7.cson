@@ -1,0 +1,22 @@
+createdAt: "2020-04-06T20:31:30.348Z"
+updatedAt: "2020-04-06T20:38:45.414Z"
+type: "MARKDOWN_NOTE"
+folder: "fd12c1e51d6efbb99ed8"
+title: "create-react-app para la creacion de app"
+tags: [
+  "create-react-app"
+  "Crear"
+  "React"
+]
+content: '''
+  # create-react-app para la creacion de app
+  ---
+  React cuenta con **react-create-app** que basicamente lo que hace es prepararnos el entorno de desarrollo con todo lo que necesitamos para trabajar en nuestra aplicaccion.
+  
+  ```bash
+  $ npx create-react-app 'nombreapp'
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

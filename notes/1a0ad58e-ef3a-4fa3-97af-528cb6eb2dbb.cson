@@ -1,0 +1,51 @@
+createdAt: "2020-05-07T17:41:43.138Z"
+updatedAt: "2020-05-22T20:26:27.348Z"
+type: "MARKDOWN_NOTE"
+folder: "8f30e8f5ed1d7dbfdd15"
+title: "3 Real Time consulta de datos en tiempo real"
+tags: [
+  "FireStore"
+]
+content: '''
+  ## 3 Real Time consulta de datos en tiempo real
+  
+  En **FireStore** puedes crear suscripciones a **sokets**, en otra palabra podemos realizar una consulta, y cuando el valor de esta consulta cambie el servidor nos informara automaticamente sin que tengamos que volver a consultarle.
+  Esto lo hacemos de la siguiente manera:
+  
+  ```js
+  consultarTodosLosPost(){
+    this.db.collection('post').onSnapshot(querySnapshot=>{
+      if(querySnapshot.empty){
+        console.log('no existen post')
+      }
+      else{
+        querySnapsoth.forEach(post=>{
+          console.log(post.data().nombreDelDato)
+        })
+      }
+    })
+  }
+  ```
+  Como siempre accedemos a la coleccion a travez de **this** ya que estamos en el ambito de una clase, luego creamos la subscripcion con el metodo **onSnapshot** que nos devolvera un objeto con la respuesta a nuestra consulta cada ves que el valor del elemento consultado cambie. Como no sabemos si lo que consultamos existe, comprovamos que el objeto devuelto exista con un **if**, si existe podemos imprimirlo, en caso de que sean muchos los elementos que devuelve podemos pasarlos por un **forEach** para ir iterando e imprimiendo cada elemento.
+  
+  Ademas podemos usar filtrosde la siguiente manera:
+  
+  ```js
+  consultarPosConFiltro(autor){
+    this.db.collection('post').where('autor','==',autor).onSnapshot(querySnapshot=>{
+      if(querySnapshot.empty){
+        console.log('no existen post')
+      }
+      else{
+        querySnapsoth.forEach(post=>{
+          console.log(post.data().nombreDelDato)
+        })
+      }
+    })
+  }
+  ```
+  Como podemos ver es casi igual con la diferencia de que aplicamos un filto con **where** al cual le pasamos el nombre del campo al que le vamos a aplicar el filtro, el operador logico y el valor a comparar.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

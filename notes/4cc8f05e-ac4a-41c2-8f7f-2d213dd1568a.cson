@@ -1,0 +1,25 @@
+createdAt: "2020-03-30T12:47:18.467Z"
+updatedAt: "2020-03-30T12:51:47.889Z"
+type: "MARKDOWN_NOTE"
+folder: "16e8c7eaf9f61d8cb104"
+title: "TERMINAL: Crear archivos de texto plano"
+tags: [
+  "Archivo"
+  "Consola"
+  "Crear"
+  "Terminal"
+  "touch"
+]
+content: '''
+  # TERMINAL: Crear archivos de texto plano
+  ---
+  Para crear un archivo de texto plano desde la terminal usamos el comando:
+  
+  ```bash
+  $ touch nombreDeMiArchivo.txt
+  ```
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

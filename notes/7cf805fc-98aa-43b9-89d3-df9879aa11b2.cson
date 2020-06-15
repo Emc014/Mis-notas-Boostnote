@@ -1,0 +1,38 @@
+createdAt: "2020-05-12T14:05:07.965Z"
+updatedAt: "2020-05-12T14:29:43.860Z"
+type: "MARKDOWN_NOTE"
+folder: "25462350b28277c63891"
+title: "Subir un archivo al Firebase Storage"
+tags: []
+content: '''
+  # Subir un archivo al Firebase Storage
+  
+  ```js
+  subirImagenPost(file,uid){
+   const refStorage= firebase.storage().ref(`imgsUsers/${uid}/${file.name}`)
+   const task = refStorage.put(file)
+   
+   task.on('state_changed', 
+      snapshot =>{
+          const porcentage = snapshot.bytesTransferred / snapshot.totalBytes * 100
+          console.log(`el procentajen subido es ${porcentage}`)
+      },
+      err =>{
+          console.error(err)
+      },
+      ()=>{
+          task.snapshot.ref.getDounloadURL()
+          .then(url=>{
+              console.log(`la url de descarga es ${url}`)
+          })
+          .catch(e=>{
+              console.error(e)
+          })
+      }
+   )
+  }
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

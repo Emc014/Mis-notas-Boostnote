@@ -1,5 +1,5 @@
 createdAt: "2020-01-13T17:23:47.397Z"
-updatedAt: "2020-01-13T18:01:18.942Z"
+updatedAt: "2020-03-28T20:35:56.871Z"
 type: "SNIPPET_NOTE"
 folder: "16e8c7eaf9f61d8cb104"
 title: "TERMINAL: Agregar llaves publicas a servidor Ssh"
@@ -20,4 +20,4 @@ snippets: [
   }
 ]
 isStarred: false
-isTrashed: false
+isTrashed: true

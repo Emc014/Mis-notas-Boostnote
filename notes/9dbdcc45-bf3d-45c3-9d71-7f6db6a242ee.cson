@@ -1,0 +1,25 @@
+createdAt: "2020-03-30T12:38:51.700Z"
+updatedAt: "2020-03-30T12:47:01.821Z"
+type: "MARKDOWN_NOTE"
+folder: "16e8c7eaf9f61d8cb104"
+title: "TERMINAL: Ver texto plano en terminal"
+tags: [
+  "Archivo"
+  "Consola"
+  "Leer"
+  "Terminal"
+  "Texto"
+  "Texto-plano"
+  "Ver"
+]
+content: '''
+  # TERMINAL: Ver texto plano en terminal
+  ---
+  ```bash
+  $ cat nombreArchivo.txt
+  ```
+  **cat** imprime el texto plano de un documento en el terminal.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

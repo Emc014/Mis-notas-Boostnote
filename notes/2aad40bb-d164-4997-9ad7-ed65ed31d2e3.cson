@@ -1,0 +1,64 @@
+createdAt: "2020-05-07T15:18:23.339Z"
+updatedAt: "2020-05-07T17:50:45.948Z"
+type: "MARKDOWN_NOTE"
+folder: "8f30e8f5ed1d7dbfdd15"
+title: "2 Incersion de documento en Firestore"
+tags: [
+  "Documento"
+  "FireStore"
+  "Crear"
+]
+content: '''
+  ## 2 Incersion de documento en Firestore
+  
+  Para comenzar con un documento en firestore no hace falta crearlo. Automaticamente al tratar de cargarle un valor firestore determina si existe la coleccion y el documento; si estos existen los actualiza, sino los crea:
+  
+  ```js
+    crearPost(uid,autor,emailUser,titulo,description,imagenLink,videoLink){
+      return this.db.collection('post').add({
+        uid: uid,
+        autor:autor,
+        titulo:titulo,
+        descripcion:descripcion,
+        imagenLink:imagenLink,
+        videoLink:videoLink,
+        emailUser:emailUser,
+        fecha: firebase.firestore.FildValue.serverTimestamp()
+      })
+      .then(refDoc=>{
+        console.log(refDoc)
+      })
+      .catch(error=>{
+        console.error(error)
+      })
+    }
+  ```
+  en este caso vemos que el elemento **db** el llamado desde **this** esto se deve a que este ejemplo esta dentro del contexto de la **clase** del ejerciccio 1.
+  Al pasarle a **db** el parametro **colection** con su valor, **frirestore** verifica si la coleccion existe, sino la crea. Una ves creada o encontrada la coleccion con **add** indicamos que se deve crear un nuevo documento, **firestore** asignara una **keyid** automatica mente para el documento.
+  Si queremos asignarle nosotros una **keyid** en lugar de que lo haga **firestore** devemos usar **doc().set** en lugar de **add**de la siguiente manera:
+  
+  ```js
+    crearPost(uid,autor,emailUser,titulo,description,imagenLink,videoLink){
+      this.db.collection('post').doc('key').set({
+        uid: uid,
+        autor:autor,
+        titulo:titulo,
+        descripcion:descripcion,
+        imagenLink:imagenLink,
+        videoLink:videoLink,
+        emailUser:emailUser,
+        fecha: firebase.firestore.FildValue.serverTimestamp()
+      })
+      .then(refDoc=>{
+        console.log(refDoc)
+      })
+      .catch(error=>{
+        console.error(error)
+      })
+    }
+  ```
+  al terminar si se tuvo exito capturamos la referencia dentro de **then** y si fracaso el error dentro de **catch**
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

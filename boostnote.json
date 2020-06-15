@@ -21,9 +21,39 @@
       "name": "Css Grid"
     },
     {
+      "key": "ce3e5ebc562f91b2b933",
+      "color": "#E10051",
+      "name": "JavaScript"
+    },
+    {
       "key": "ece686960d835d6783b6",
       "color": "#30D5C8",
       "name": "PHP"
+    },
+    {
+      "key": "b77caee73241dc53571b",
+      "color": "#2BA5F7",
+      "name": "Node.js"
+    },
+    {
+      "key": "fd12c1e51d6efbb99ed8",
+      "color": "#B013A4",
+      "name": "React"
+    },
+    {
+      "key": "9ebba7a6df45111b7f32",
+      "color": "#2BA5F7",
+      "name": "Firebase Oauth2"
+    },
+    {
+      "key": "8f30e8f5ed1d7dbfdd15",
+      "color": "#30D5C8",
+      "name": "FireStore"
+    },
+    {
+      "key": "25462350b28277c63891",
+      "color": "#B013A4",
+      "name": "Firebase Storage"
     }
   ],
   "version": "1.0"

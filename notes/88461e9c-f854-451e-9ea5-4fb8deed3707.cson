@@ -1,0 +1,24 @@
+createdAt: "2020-03-30T12:12:47.826Z"
+updatedAt: "2020-03-30T12:21:33.853Z"
+type: "MARKDOWN_NOTE"
+folder: "16e8c7eaf9f61d8cb104"
+title: "TERMINAL: Borrar archivos"
+tags: [
+  "Archivo"
+  "Borrar"
+  "Consola"
+  "Remover"
+  "Terminal"
+]
+content: '''
+  # TERMINAL: Borrar archivos
+  ---
+  
+  Para borrar archivos desde el terminal usamos el comando.
+  ```bash
+  $ rm NombreArchivo.txt
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

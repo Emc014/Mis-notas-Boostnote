@@ -1,0 +1,42 @@
+createdAt: "2020-05-07T20:50:57.254Z"
+updatedAt: "2020-05-08T14:25:53.985Z"
+type: "MARKDOWN_NOTE"
+folder: "8f30e8f5ed1d7dbfdd15"
+title: "7 Consulta directa"
+tags: [
+  "FireStore"
+]
+content: '''
+  ## 7 Consulta directa
+  
+  Podemos realizar consultas directas sin recurrir al socket:
+  
+  ```js
+  traerDocumento(id){
+    let ref= this.db.collection('post').doc(id)
+    ref.get().then(res=>{
+      console.log(res)
+    })
+    .catch(error=>{
+      console.error(error)
+    })
+  }
+  ```
+  tambien podemos realizar consultas con filtros:
+  
+  ```js
+  consultaTitulo(titulo){
+    let ref= this.db.collection('post').where('titulo','==',titulo)
+    ref.get().then(res=>{
+      console.log(res)
+    })
+    .catch(error=>{
+      console.error(error)
+    })
+  }
+  ```
+  Se puede usar mas de un where en la misma consulta para filtrar por dos o mas campos.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

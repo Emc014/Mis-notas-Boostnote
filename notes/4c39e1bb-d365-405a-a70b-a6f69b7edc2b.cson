@@ -1,0 +1,33 @@
+createdAt: "2020-04-10T18:29:47.333Z"
+updatedAt: "2020-05-10T03:50:55.079Z"
+type: "MARKDOWN_NOTE"
+folder: "ce3e5ebc562f91b2b933"
+title: "Condicionales en una linea."
+tags: [
+  "Condicionales"
+  "JavaScript"
+  "una_linea"
+]
+content: '''
+  # Condicionales en una linea.
+  
+  Podemos realizar condicionales de una sola linea de la siguiente forma:
+  
+  ```js
+  var edad=20
+  var legal= edad>18 ? true:false
+  ```
+  en el ejemplo anterior vemos pomo verificar si una persona es menor o mayor en una sola linea.
+  
+  Tambien podemos ejecutar condiciones de una sola opcion.
+  
+  ```js
+  var estatus= true;
+  estatus===true && console.log('Bienvenido')
+  ```
+  en el ejemplo anterior si el estado es verdadero se imprime el verdadero en consola, de lo contrario no se toma ninguna accion.
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

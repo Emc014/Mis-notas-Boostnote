@@ -1,5 +1,5 @@
 createdAt: "2020-01-10T16:29:33.609Z"
-updatedAt: "2020-01-10T19:21:41.857Z"
+updatedAt: "2020-03-30T13:12:14.106Z"
 type: "SNIPPET_NOTE"
 folder: "16e8c7eaf9f61d8cb104"
 title: "TERMINAL: Limpiar la consola"
@@ -22,4 +22,4 @@ snippets: [
   }
 ]
 isStarred: false
-isTrashed: false
+isTrashed: true

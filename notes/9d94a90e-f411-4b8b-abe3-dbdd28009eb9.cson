@@ -1,0 +1,108 @@
+createdAt: "2020-05-08T17:38:42.948Z"
+updatedAt: "2020-05-08T20:14:15.576Z"
+type: "MARKDOWN_NOTE"
+folder: "8f30e8f5ed1d7dbfdd15"
+title: "10 Regla de seguridad"
+tags: [
+  "FireStore"
+  "Seguridad"
+  "Reglas"
+]
+content: '''
+  #  10 Regla de seguridad
+  ---
+  
+  Fuente: [Comienza con las reglas de seguridad de Cloud Firestore  \\|  Firebase](https://firebase.google.com/docs/firestore/security/get-started)
+  
+  Las reglas de seguridad de **FireStore** son flexibles y puden ser tan complejas como querramos.
+  
+  Para comenzar a crear una regla de **FireStore** se deve empezar por la estructura basica:
+  
+  ```js
+  rules_vercion='2';
+  service cloud.firestore{
+    match /database/{database}/documents{
+      
+    }
+  }
+  ```
+  
+  esta esta estructura basicamente lo primero que indicamos es la vercion de el lenguaje de la regla, en este caso usamos el que actualmente es mas moderno el **'2'**; luego con **service** declaramos para que servicio de firebase aplicaran las reglas, en este caso para **'cloud.firestore'**; a continuacion en la linea **3** indicamos un **match** que aplicaran a todos los documentos de la base de datos, mas adelantes veremos que se pueden anidar mas **march** para aplicar filtros de reglas mas espesificos.
+  
+  ---
+  Tipos de operaciones
+  -
+  existen varios tipos de operaciones permitidas, estas son:
+  
+  **read**
+    ~ Operaciones de lecturas que a su vez se pueden dividir en formas mas espesificas en:
+      
+      **get** 
+        ~ obtener un solo resultado
+      **list**
+        ~ Obtener una lista de resultados
+  **write**
+    ~ Operaciones de escritura, que se pueden desglosar de forma mas espesificas en:
+        
+        create
+         ~ Operacion de creacion de documento
+        update
+          ~ Opracion de actualizacion de un documento
+        delete
+          ~ Operacion de borrado o eliminacion de un documento
+  
+  Creacion de una regla
+  -----
+  
+  Para crear una regla primero devemos colocar otro **metch** indicandole la ruta al documento que se va a aplicar la regla. Luego dentro del **merch** indicamos uno o varios **allow** que indican los tipos de Operaciones que controlara la regla y la condicion que determinara su aprobacion o no.
+  
+  ```js
+  service cloud.firestore {
+    match /databases/{database}/documents {
+  
+      // Match se aplica a todos los blogs de la base de datos blogs
+      match /blogs/{blog} {
+        allow read: if <condition>; // Condicion para la lectura
+        allow write: if <condition>;// Condicion para la escritura
+      }
+    }
+  }
+  ```
+  podemos obserbar en el ejemplo anterior el uso del comodin **'{valor}'**
+  este se usa si no queremos indicar ub blog o documento espesifico, por lo que la regla se aplica a todos los blogs.
+  
+  O de forma mas espesifica:
+  
+  ```js
+    service cloud.firestore {
+      match /databases/{database}/documents {
+      // Una regla de lectura se puede dividir en reglas de obtención y lista
+        match /blogs/{blog} {
+        // Se aplica a solicitudes de lectura de documentos individuales
+          allow get: if <condition>;
+  
+        // Se aplica a consultas y solicitudes de lectura de recopilación
+          allow list: if <condition>;
+        }
+  
+        // Una regla de escritura se puede dividir en crear, actualizar y eliminar reglas
+        match /blogs/{blog} {
+          // Se aplica a escrituras a documentos inexistentes
+          allow create: if <condition>;
+  
+          // Aplica a escrituras a documentos existentes
+          allow update: if <condition>;
+  
+          // Aplica para eliminar operaciones
+          allow delete: if <condition>;
+        }
+      }
+    }
+  ```
+  
+  
+  **mas info: ** https://firebase.google.com/docs/firestore/security/rules-structure
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

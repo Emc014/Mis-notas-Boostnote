@@ -1,0 +1,43 @@
+createdAt: "2020-03-13T19:27:54.119Z"
+updatedAt: "2020-03-30T12:58:14.703Z"
+type: "SNIPPET_NOTE"
+folder: "9ebba7a6df45111b7f32"
+title: "Gestionar el estado del Usuario con  Firebase, ver el usuario registrado."
+tags: [
+  "Firebase"
+  "Usuario"
+  "Estado"
+  "ver_usuario"
+]
+description: "Gestionar el estado del Usuario con  Firebase, ver el usuario registrado."
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "JavaScript"
+    content: '''
+      //Obtenemos la referencia al usuario registrado
+      const user= firebase.auth().currentUser
+      // Verificamos si existe un urario registrado
+      if(user){
+        //realizamos las funciones pertinentes con el usuario registrado
+      }
+      
+      --------------------------------------------------------------------------------------------
+      
+      //Tambien existe una funcion que escucha el cambio de estado de un usuario que alterna entre registrado y no registrado.
+      
+      firebase.auth()onAuthStateChanged(user=>{
+        //esta funcion devuelve el usuario que en caso de estar registrado traera todos sus datos y en caso de no estar registrado contendra null. por lo que podemos verificarlo con un if.
+        if(user){
+          //funciones correspondiente si existe un usuario registrado
+        }
+      })
+      
+      --------------------------------------------------------------------------------------------
+      //para poder obtener los datos de un usuario usamos
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

@@ -1,5 +1,5 @@
 createdAt: "2020-01-13T16:22:26.204Z"
-updatedAt: "2020-01-13T16:24:27.886Z"
+updatedAt: "2020-03-28T20:33:59.785Z"
 type: "MARKDOWN_NOTE"
 folder: "16e8c7eaf9f61d8cb104"
 title: "TERMINAL: Funcionamiento llaves públicas y privadas"
@@ -10,9 +10,13 @@ tags: [
   "Terminal"
 ]
 content: '''
-  <h1>TERMINAL: Funcionamiento llaves públicas y privadas</h1>
-  <div class="Description-agenda"><p>Las llaves públicas y privadas nos ayudan a cifrar y descifrar nuestros archivos de forma que los podamos compartir archivos sin correr el riesgo de que sean interceptados por personas con malas intenciones.</p>
-  <p>La forma de hacerlo es la siguiente:</p>
+  # TERMINAL: Funcionamiento llaves públicas y privadas
+  ---
+  
+  Las llaves públicas y privadas nos ayudan a cifrar y descifrar nuestros archivos de forma que los podamos compartir archivos sin correr el riesgo de que sean interceptados por personas con malas intenciones.
+  
+  La forma de hacerlo es la siguiente:
+  
   <ol>
   <li>Ambas personas deben crear su llave pública y privada.</li>
   <li>Ambas personas pueden compartir su llave pública a las otras partes (recuerda que esta llave es pública, no hay problema si la “interceptan”).</li>
@@ -23,10 +27,10 @@ content: '''
   <blockquote>
   <p>Puedes compartir tu llave pública pero nunca tu llave privada.</p>
   </blockquote>
-  <p>En la siguiente clase vamos a crear nuestras llaves para compartir archivos con GitHub sin correr el riesgo de que sean interceptados.</p></div>
+  <p>En la siguiente clase vamos a crear nuestras llaves para compartir archivos con GitHub sin correr el riesgo de que sean interceptados.</p>
 '''
 linesHighlighted: [
-  1
+  3
 ]
 isStarred: false
 isTrashed: false

@@ -1,0 +1,30 @@
+createdAt: "2020-03-13T14:44:59.986Z"
+updatedAt: "2020-03-13T14:51:00.525Z"
+type: "SNIPPET_NOTE"
+folder: "9ebba7a6df45111b7f32"
+title: "Cerrar la secion de un usuario con Firebase"
+tags: [
+  "Firebase"
+  "Cerrar"
+  "Secion"
+  "Usuario"
+  "oauth"
+]
+description: "Cerrar la secion de un usuario con Firebase"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "JavaScript"
+    content: '''
+      //Solicitamos el cierre de la secion
+      firebase.auth().signOut()
+      .then(()=>{
+        //Aca van las funciones que se deven ejecutar en caso de que la secion se cierre con exito
+        alert('se cerro la funcion')
+      })
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

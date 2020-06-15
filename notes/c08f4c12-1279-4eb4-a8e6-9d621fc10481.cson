@@ -1,0 +1,35 @@
+createdAt: "2020-03-13T19:00:25.463Z"
+updatedAt: "2020-03-13T19:13:00.023Z"
+type: "SNIPPET_NOTE"
+folder: "9ebba7a6df45111b7f32"
+title: "Alta de usuarios con Facebook"
+tags: [
+  "Firebase"
+  "oauth"
+  "Alta"
+  "Usuario"
+  "Facebook"
+]
+description: "Alta de usuarios con Facebook"
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "JavaScript"
+    content: '''
+      //Creamos la referencia al provedor de Oauth2 que en este caso es facebook.
+      const provider= new firebase.auth().FacebookAuthProvider()
+      //Solicitamos el registro del usuario atravez de una ventana popup pasandole el provedor
+      firebase.auth().signInWithPopup(provider)
+      .then(Result=>{
+        //Al devolver la promesa se confirma el usuario registrado y se puede continuar con las funciones pertinentes como cambiar el avatar y mostrar el nombre del usuario todo esto accesible desde (Result.user)
+      })
+      .catch(error=>{
+        //en caso de error mostramos el error.
+        console.error(error)
+      })
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

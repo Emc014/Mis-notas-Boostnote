@@ -1,5 +1,5 @@
 createdAt: "2020-01-10T16:40:55.141Z"
-updatedAt: "2020-01-10T19:22:30.199Z"
+updatedAt: "2020-03-30T12:47:04.157Z"
 type: "SNIPPET_NOTE"
 folder: "16e8c7eaf9f61d8cb104"
 title: "TERMINAL: Ver texto plano en terminal"
@@ -18,8 +18,11 @@ snippets: [
     linesHighlighted: []
     name: ""
     mode: "Shell"
-    content: "$ cat nombreArchivo.txt"
+    content: '''
+      $ cat nombreArchivo.txt
+      
+    '''
   }
 ]
 isStarred: false
-isTrashed: false
+isTrashed: true

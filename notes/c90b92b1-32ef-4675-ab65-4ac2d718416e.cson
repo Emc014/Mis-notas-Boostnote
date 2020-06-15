@@ -1,0 +1,26 @@
+createdAt: "2020-03-29T15:39:22.777Z"
+updatedAt: "2020-03-30T12:49:41.420Z"
+type: "MARKDOWN_NOTE"
+folder: "16e8c7eaf9f61d8cb104"
+title: "TERMINAL: Cambiar o navegar por los directorios"
+tags: [
+  "Cambiar"
+  "Directorio"
+  "Navegar"
+  "Terminal"
+]
+content: '''
+  # TERMINAL: Cambiar o navegar por los directorios
+  ---
+  ```bash
+  $ cd Document/index.html 
+  ```
+  Despues de **cd** ponemos la direccion a la que deseamos ir
+  
+  ## Directorios:
+  - **Home:** /
+  - **Directorio del Usuario:** ~
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

@@ -1,0 +1,24 @@
+createdAt: "2020-03-30T12:33:44.833Z"
+updatedAt: "2020-03-30T12:49:20.855Z"
+type: "MARKDOWN_NOTE"
+folder: "16e8c7eaf9f61d8cb104"
+title: "TERMINAL: Ver la ruta de directorio actual"
+tags: [
+  "Direccion"
+  "Directorio"
+  "Ruta"
+  "Consola"
+  "Terminal"
+]
+content: '''
+  # TERMINAL: Ver la ruta de directorio actual
+  ---
+  
+  Para ver el directorio actual usamos:
+  ```bash
+  $ pwd
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

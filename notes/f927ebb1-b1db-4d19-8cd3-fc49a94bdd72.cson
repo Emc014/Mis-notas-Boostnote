@@ -1,0 +1,18 @@
+createdAt: "2020-05-08T20:14:48.907Z"
+updatedAt: "2020-05-08T20:19:52.996Z"
+type: "MARKDOWN_NOTE"
+folder: "8f30e8f5ed1d7dbfdd15"
+title: "11 Incices en FireStore"
+tags: [
+  "FireStore"
+  "Indices"
+]
+content: '''
+  # 11 Incices en FireStore
+  ---
+  
+  En ocaciones cuando queremos crear consultas con filtros complejos, veremos que nos sale un error y no devuelve ningun dato desde **FireStore**. En estos casos podremos obserbar un error en la consola con un enlace, este enlace llevara a la consola web de **Firebase** y mostrara el **indice** que se deve crear. Al crear el **indice** ya podremos ejecutar otra vez la consulta y ya veremos que funciona.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

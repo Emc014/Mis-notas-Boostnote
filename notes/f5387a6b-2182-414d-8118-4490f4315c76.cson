@@ -1,5 +1,5 @@
 createdAt: "2020-01-10T16:45:53.636Z"
-updatedAt: "2020-01-10T19:24:02.869Z"
+updatedAt: "2020-03-30T12:21:37.681Z"
 type: "SNIPPET_NOTE"
 folder: "16e8c7eaf9f61d8cb104"
 title: "TERMINAL: Borrar archivos"
@@ -20,4 +20,4 @@ snippets: [
   }
 ]
 isStarred: false
-isTrashed: false
+isTrashed: true

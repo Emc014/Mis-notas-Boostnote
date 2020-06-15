@@ -1,0 +1,46 @@
+createdAt: "2020-05-07T20:33:30.602Z"
+updatedAt: "2020-05-08T14:18:26.394Z"
+type: "MARKDOWN_NOTE"
+folder: "8f30e8f5ed1d7dbfdd15"
+title: "6 Actualizaciones de un campo de un documento"
+tags: [
+  "FireStore"
+]
+content: '''
+  ## 6 Actualizaciones de un campo de un documento
+  
+  Podemos actualizar los datos de un documento de la siguiente manera:
+  
+  ```js
+  update(imgLink,id){
+    let refUser = this.db.collection('post').doc(id)
+    refUser.update({
+      imagenLink:imagenLink
+    })
+  }
+  ```
+  como podemos ver lo primero que hacemos es crear la referencia al documento que queremos actualizar, luego en lugar de usar **.set()** utilizamos **.update()**.
+  De la misma manera podemos crear o actualizar objetos dentro de un campo:
+  
+  ```js
+  update(imgLink,id){
+    let refUser = this.db.collection('post').doc(id)
+    refUser.update({
+      'post.categoria':'1'
+    })
+  }
+  ```
+  Podemos ademas eliminar un campo:
+  ```js
+  borrarCampo(id){
+    this.db.collection('post').doc.(id).update({
+     imagenLink: firebase.firestore.FildValue.delete()
+    })
+  }
+  ```
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

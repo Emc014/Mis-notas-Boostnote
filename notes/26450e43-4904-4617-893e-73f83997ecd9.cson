@@ -1,5 +1,5 @@
 createdAt: "2020-01-13T23:24:29.586Z"
-updatedAt: "2020-01-13T23:28:59.879Z"
+updatedAt: "2020-03-28T20:12:52.684Z"
 type: "SNIPPET_NOTE"
 folder: "16e8c7eaf9f61d8cb104"
 title: "Terminal: Alias o etiquetas para resumir comandos"
@@ -23,4 +23,4 @@ snippets: [
   }
 ]
 isStarred: false
-isTrashed: false
+isTrashed: true

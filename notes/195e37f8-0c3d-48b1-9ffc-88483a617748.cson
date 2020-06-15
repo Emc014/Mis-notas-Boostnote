@@ -1,0 +1,41 @@
+createdAt: "2020-03-13T14:20:08.720Z"
+updatedAt: "2020-03-13T14:48:09.474Z"
+type: "SNIPPET_NOTE"
+folder: "9ebba7a6df45111b7f32"
+title: "Ingreso de usuario ya registrado por Email."
+tags: [
+  "Firebase"
+  "Email"
+  "Ingreso"
+  "Usuario"
+  "oauth"
+]
+description: "Ingreso de usuario ya registrado por Email."
+snippets: [
+  {
+    linesHighlighted: []
+    name: ""
+    mode: "JavaScript"
+    content: '''
+      //Esta funcion genera el ingreso del usuario con su email y contraseña
+      firebase.auth.signInWithEmailAndPassword(email,password)
+      .then(result=>{
+        //al retornar la promesa verificamos que el email se aya verificado
+        if(result.user.emailVerified){
+          //funciones a realizar si el email a sido verificado
+          alert('Bienvenido')
+          //Este es un buen momento para Cambiar el avatar por el elegido por el usuario
+        }
+        else{
+          //Funciones a realizar si no se a verificado el usuario.
+          //Cerramos la secion para que no pueda ingresar si no se verifico el email
+          firebase.auth().signOut()
+          //Mostramos el mensaje recordandole que debe verificar el email
+          comfirm('Deve verificar el email antes de poder ingresarn')
+        }
+      })
+    '''
+  }
+]
+isStarred: false
+isTrashed: false

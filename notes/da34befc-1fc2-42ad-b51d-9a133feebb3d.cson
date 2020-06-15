@@ -1,0 +1,22 @@
+createdAt: "2020-05-17T23:39:09.010Z"
+updatedAt: "2020-05-17T23:46:43.946Z"
+type: "MARKDOWN_NOTE"
+folder: "02e5bd83bdc6f460f151"
+title: "Rebase en git"
+tags: [
+  "Git"
+  "Rebase"
+]
+content: '''
+  # Rebase en git
+  ------
+  
+  El rebase nos permite unir las historias de las ramas **B** y **A** de forma tal que paresca que la rama **B** nunca existio:
+  
+  ```bash
+  $ git rebase A
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

@@ -1,5 +1,5 @@
 createdAt: "2020-01-10T16:37:51.992Z"
-updatedAt: "2020-01-10T19:22:14.120Z"
+updatedAt: "2020-03-30T12:51:50.483Z"
 type: "SNIPPET_NOTE"
 folder: "16e8c7eaf9f61d8cb104"
 title: "TERMINAL: Crear archivos de texto plano"
@@ -20,4 +20,4 @@ snippets: [
   }
 ]
 isStarred: false
-isTrashed: false
+isTrashed: true
