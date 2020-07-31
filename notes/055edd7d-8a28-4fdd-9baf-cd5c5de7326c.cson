@@ -1,5 +1,5 @@
 createdAt: "2020-03-29T15:29:57.622Z"
-updatedAt: "2020-03-29T15:33:59.013Z"
+updatedAt: "2020-07-31T07:34:10.289Z"
 type: "MARKDOWN_NOTE"
 folder: "16e8c7eaf9f61d8cb104"
 title: "Crear llaves de sifrado publicas y privadas"
@@ -15,7 +15,7 @@ content: '''
   Para crear un juego de llaves publicas y privadas utilizamos el siguiente comando:
   
   ```bash
-  $ ssh-keygen -t rsa -b 4096 -c "micorreo@micorreo.com"
+  $ ssh-keygen -t rsa -b 4096 -C "micorreo@micorreo.com"
   ```
   
   A continuacion te pedira que ingreses el directorio donde quieres guardar las llaves, te sugiere un directorio por defecto que puedes aceptar dando enter sin poner nada.
