@@ -54,6 +54,11 @@
       "key": "25462350b28277c63891",
       "color": "#B013A4",
       "name": "Firebase Storage"
+    },
+    {
+      "key": "782db1f2a144b68d1420",
+      "color": "#E8D252",
+      "name": "Docker"
     }
   ],
   "version": "1.0"

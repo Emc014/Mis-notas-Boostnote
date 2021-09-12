@@ -1,0 +1,31 @@
+createdAt: "2021-09-11T16:59:45.534Z"
+updatedAt: "2021-09-11T18:02:37.474Z"
+type: "MARKDOWN_NOTE"
+folder: "782db1f2a144b68d1420"
+title: "Banderas Docker"
+tags: [
+  "Docker"
+  "Banderas"
+]
+content: '''
+  # Banderas Docker
+  ---
+  
+  Al momento de manipular docker atravez de la linea de comandos contamos con diferentes banderas que nos ayudara configurar nuestros contenedores.
+  
+  Esta es la lista de banderas de docker:
+  
+  - **-a:** Esta bandera sirve para ver los contenedores que no se estanejecutando EJ:(**docker ps -a**)
+  - **-d:** Esta bandera ejecuta el contenedor en modo separado (en segundo plano)
+  - **-t:** Esta bandera nos permite etiquetar (ponerle un nombre legible) a nuestro contenedor.
+  - **-p:** Esta bandera nos permite mapear los puertos de la maquina host y los puertos del contenedor ej: (**-p 80:80**)
+  
+  
+  > Las banderas pueden ser agrupadas para acortar el codigo EJ:(**-dp 80:80**) de esta forma estamos indicando que
+  > se ejecutara en segundoplano y asignando los puertos al mismo tiempo.
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
