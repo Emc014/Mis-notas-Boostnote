@@ -1,5 +1,5 @@
 createdAt: "2020-01-09T18:08:00.813Z"
-updatedAt: "2020-01-09T18:20:15.887Z"
+updatedAt: "2021-09-11T04:40:59.369Z"
 type: "SNIPPET_NOTE"
 folder: "8fe2efc129ea3f88bbe8"
 title: "Grids implisitos o dinamicos"
@@ -18,7 +18,7 @@ snippets: [
       /*flujo de los elementos del grid */
       .contenedor{
         display:grid;
-        /*Los elementos se acomodan en dilas por defecto*/
+        /*Los elementos se acomodan en filas por defecto*/
         grid-auto-flow:row;
         /*Los elementos se acomodan en columnas*/
         grid-auto-flow:column;

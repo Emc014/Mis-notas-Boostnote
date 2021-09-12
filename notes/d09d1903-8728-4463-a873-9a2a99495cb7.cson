@@ -1,0 +1,27 @@
+createdAt: "2021-09-11T23:39:44.446Z"
+updatedAt: "2021-09-11T23:45:19.516Z"
+type: "MARKDOWN_NOTE"
+folder: "782db1f2a144b68d1420"
+title: "Listar contenedores de Docker"
+tags: [
+  "Docker"
+]
+content: '''
+  # Listar contenedores de Docker
+  ---
+  
+  Cuando necesitamos listar los contenedores tenemos el comando **ps**:
+  
+  ```bash
+  $ docker ps
+  ```
+  Este comando muestra todos los contenedores que se estan ejecutando, si queremos que nos muestre 
+  tambien los contenedores que no se estan ejecutando devemos agregar la bandera **-a**:
+  
+  ```bash
+  $ docker ps -a
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

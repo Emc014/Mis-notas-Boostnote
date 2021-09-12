@@ -1,0 +1,29 @@
+createdAt: "2021-09-11T23:49:44.994Z"
+updatedAt: "2021-09-11T23:56:03.198Z"
+type: "MARKDOWN_NOTE"
+folder: "782db1f2a144b68d1420"
+title: "Eliminar un contenedor de Docker"
+tags: [
+  "Docker"
+]
+content: '''
+  # Eliminar un contenedor de Docker
+  ---
+  Para eliminar un contenedor de docker contamso con el comando **rm**:
+  
+  ```bash
+  $ docker rm <id-contenedor>
+  ```
+  como podemos ver al comando **rm** le pasamos el **id** del contenedor.
+  
+  Si el contenedor se encuentra en ejecucion no nos permitira eliminarlo,
+  para solucionar esto podemos utilizar la bandera **-f** que lo removera de forma forzada:
+  
+  ```bash
+  $ docker rm -f <id-contenedor>
+  ```
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

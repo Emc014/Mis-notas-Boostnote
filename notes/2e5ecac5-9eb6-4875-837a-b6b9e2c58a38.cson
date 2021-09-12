@@ -1,0 +1,31 @@
+createdAt: "2021-09-11T13:31:23.776Z"
+updatedAt: "2021-09-11T23:37:21.443Z"
+type: "MARKDOWN_NOTE"
+folder: "782db1f2a144b68d1420"
+title: "Crear un contenedor"
+tags: [
+  "Docker"
+  "Contenedor"
+]
+content: '''
+  # Crear un contenedor
+  ---
+  Para crear un contenedor en docker usamos el comando **run** de la siguiente manera:
+  
+  ```bash
+  docker run -d -p 80:80 docker/getting-started
+  ```
+  La bandera **-d** indica que el contenedor se ejecutara en segundo plano, aun cuando se cierre el terminal.
+  
+  La bandera **-p** nos permite realizar un mapeado entre los puertos interiores y exteriores del contenedor, en este caso seria los puertos **80:80**, siendo el primer **80** el puerto del contenedor y el degundo el de nuestra maquina.
+  
+  En este caso **docker/getting-started** seria el nombre de la imagen con la que vamos a crear nuestro contenedor.
+  
+  El comando **run** buscara la imagen para el contenedor de forma locar y de no encontrarla se descargara de forma automatica.
+  
+  > #### Es importante aclarar que no podemos ejecutar al mismo tiempo 
+  > #### dos contenedores que escuchen en el mismo puerto,esto arrojara un error.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
