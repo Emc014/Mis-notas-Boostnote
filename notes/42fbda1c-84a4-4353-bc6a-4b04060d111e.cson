@@ -1,0 +1,22 @@
+createdAt: "2020-08-17T18:54:15.495Z"
+updatedAt: "2020-08-17T18:59:36.810Z"
+type: "MARKDOWN_NOTE"
+folder: "ce3e5ebc562f91b2b933"
+title: "Scroll a un elemento del DOM"
+tags: [
+  "scroll"
+  "js"
+]
+content: '''
+  ## Scroll a un elemento del DOM
+  
+  Para hacer scroll a un elemento del **DOM** con javaScript lo hacemos de la siguiente manera:
+  
+  ```js
+  document.querySelector('elemento').scrollIntoView({behavior:"smooth"})
+  ```
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

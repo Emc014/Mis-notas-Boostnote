@@ -1,0 +1,14 @@
+createdAt: "2021-05-06T20:36:17.836Z"
+updatedAt: "2021-05-06T20:43:51.848Z"
+type: "MARKDOWN_NOTE"
+folder: "ce3e5ebc562f91b2b933"
+title: "Detectar texto seleccionado con JS"
+tags: []
+content: '''
+  # Detectar texto seleccionado con JS
+  
+  Para detectar el texto seleccionado en un div tenemos el metodo **getSelection()**
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
