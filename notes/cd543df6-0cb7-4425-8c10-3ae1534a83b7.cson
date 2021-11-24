@@ -1,5 +1,5 @@
 createdAt: "2021-09-11T23:49:44.994Z"
-updatedAt: "2021-09-11T23:56:03.198Z"
+updatedAt: "2021-11-24T14:53:39.046Z"
 type: "MARKDOWN_NOTE"
 folder: "782db1f2a144b68d1420"
 title: "Eliminar un contenedor de Docker"
@@ -22,7 +22,11 @@ content: '''
   ```bash
   $ docker rm -f <id-contenedor>
   ```
+  Tambien podemos programar un contenedor para que sea eliminado una vez detenido.
   
+  ```bash
+  $ docker run --rm nombre-imagen
+  ```
 '''
 linesHighlighted: []
 isStarred: false

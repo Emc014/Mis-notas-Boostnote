@@ -1,5 +1,5 @@
 createdAt: "2020-01-13T15:47:36.404Z"
-updatedAt: "2020-01-13T15:51:13.914Z"
+updatedAt: "2021-11-24T01:25:41.468Z"
 type: "SNIPPET_NOTE"
 folder: "02e5bd83bdc6f460f151"
 title: "GIT:  importar o traer desde repositorio remoto"
@@ -18,7 +18,7 @@ snippets: [
     mode: "Shell"
     content: '''
       //pasamos a pull primero el nombre del remoto y a continuacion el nombre de la rama a la que queremos traer los cambios
-      $git pull origin master
+      $git pull nombreRemoto nombreRamaRemota
     '''
   }
 ]

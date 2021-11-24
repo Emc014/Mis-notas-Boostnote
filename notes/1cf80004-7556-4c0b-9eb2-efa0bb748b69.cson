@@ -1,5 +1,5 @@
 createdAt: "2020-01-13T15:33:22.838Z"
-updatedAt: "2020-01-14T00:09:33.694Z"
+updatedAt: "2021-11-24T01:24:24.392Z"
 type: "SNIPPET_NOTE"
 folder: "02e5bd83bdc6f460f151"
 title: "GIT: enviar a repositorio remoto"
@@ -18,7 +18,7 @@ snippets: [
     mode: "Shell"
     content: '''
       //sintaxis: push nombreDelRemoto nombreDeLaRama
-      $git push nombreRemoto nombreRama
+      $git push nombreRemoto nombreRamaRemota
       
       //Si es la primera ves te pedira el usuario y la contraceña del remoto y dara un error porque primero hay que traer los archivos del remoto por primera vez con:
       
