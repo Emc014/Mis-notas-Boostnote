@@ -1,0 +1,24 @@
+createdAt: "2021-11-24T18:01:18.381Z"
+updatedAt: "2021-11-24T18:11:57.926Z"
+type: "MARKDOWN_NOTE"
+folder: "782db1f2a144b68d1420"
+title: "Copiar archivos entre la maquina host y el contenedor"
+tags: []
+content: '''
+  # Copiar archivos entre la maquina host y el contenedor
+  ---
+  
+  Podemos copiar archivos desde la **maquina host** al **contenedor** y vicerversa. Para esto contamos con el siguiente comando:
+  
+  ```bash
+  $ docker container cp <idContenedor>:<pathContenedor> <pathHost>
+  ```
+  En el ejemplo anterior copiamos un archivo desde el contenedor a la maquina host,para realizar el proseso contrario y copiar un archivo desde el host al contenedor, simplemente tenemos que invertir el orden de los paths, ya que el primero reprecenta el origen y el segundo el destino.
+  
+  ```bash
+  $ docker container cp <pathHost> <idContenedor>:<pathContenedor>
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

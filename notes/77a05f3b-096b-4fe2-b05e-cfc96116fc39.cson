@@ -1,0 +1,19 @@
+createdAt: "2021-11-24T18:19:21.975Z"
+updatedAt: "2021-11-24T18:32:25.067Z"
+type: "MARKDOWN_NOTE"
+folder: "782db1f2a144b68d1420"
+title: "Crear una nueva imagen a partir de un contenedor con commit."
+tags: []
+content: '''
+  # Crear una nueva imagen a partir de un contenedor con commit.
+  ---
+  Sabemos que las imagenes de docker son de solo lectura, por lo que cuando queremos tener una imagen con el nuevo estado del contenedor devemos crear una imagen nueva. Para esto cintamos con el comando **commit**:
+  
+  ```bash
+  $ Docker commmit <idContenedor> <nombreNuevaImagen>
+  ```
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

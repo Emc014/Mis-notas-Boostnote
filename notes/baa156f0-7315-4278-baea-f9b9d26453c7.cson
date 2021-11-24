@@ -1,0 +1,20 @@
+createdAt: "2021-11-24T16:10:07.288Z"
+updatedAt: "2021-11-24T16:17:30.430Z"
+type: "MARKDOWN_NOTE"
+folder: "782db1f2a144b68d1420"
+title: "Entrar en un contenedor docker"
+tags: []
+content: '''
+  # Entrar en un contenedor docker
+  ---
+  
+  Para ingresar en un contenedor que se esta ejecutando utilizamos el comando ``exec``:
+  
+  ```bash
+  $ docker exec --interactive --tty <idContenedor> /bin/sh
+  ```
+  esto genera que entremos en una instancia shell remota del contenedor.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
