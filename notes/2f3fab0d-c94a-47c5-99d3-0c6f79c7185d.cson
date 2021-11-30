@@ -1,5 +1,5 @@
 createdAt: "2021-11-24T22:34:29.246Z"
-updatedAt: "2021-11-24T22:41:04.959Z"
+updatedAt: "2021-11-25T00:03:43.651Z"
 type: "MARKDOWN_NOTE"
 folder: "782db1f2a144b68d1420"
 title: "Descargar una imagen de un repositorio"
@@ -12,6 +12,11 @@ content: '''
   
   ```bash
   $ docker pull <nombreImagen>
+  ```
+  Este comando descarga por defecto la vercion **latest** de la imagen, para descargar otra vercion devemos espesificarla con su respectivo **tag**:
+  
+  ```bash
+  $ docker pull <nombreImagen>:<tag>
   ```
   
   Luego para ver si la imagen se descargo correctamente, podemos utilizar el comando:
