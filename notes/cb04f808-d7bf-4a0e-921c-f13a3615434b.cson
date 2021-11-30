@@ -1,0 +1,24 @@
+createdAt: "2021-11-29T14:44:31.539Z"
+updatedAt: "2021-11-29T15:03:32.537Z"
+type: "MARKDOWN_NOTE"
+folder: "16e8c7eaf9f61d8cb104"
+title: "Mover o renombrar unarchivo o directorio."
+tags: []
+content: '''
+  # Mover o renombrar unarchivo o directorio.
+  ---
+  Con el comando `mv` podemos mover directorios o renombrarlos, para mover archivos o directorios usamos el comando de la siguiente manera:
+  
+  ```bash
+  mv <pathOrigen> <pathDestino>
+  ```
+  para renombrar un directorio o archivo:
+  
+  ```bash
+  mv <nombreActual> <nuevoNombre>
+  ```
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

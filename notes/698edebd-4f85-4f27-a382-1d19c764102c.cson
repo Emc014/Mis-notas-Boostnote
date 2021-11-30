@@ -1,0 +1,34 @@
+createdAt: "2021-11-25T13:51:15.152Z"
+updatedAt: "2021-11-26T16:46:28.040Z"
+type: "MARKDOWN_NOTE"
+folder: "782db1f2a144b68d1420"
+title: "Ingresar o conectarse a un contenedor de Docker"
+tags: []
+content: '''
+  # Ingresar o conectarse a un contenedor de Docker
+  ---
+  Para ingresar o conectarse a un contenedor Docker disponemos de diferentes formas de hacerlo, por un lado podemos ingresar al momento de crearlo:
+  
+  ```bash
+  $ docker run -it <nombreImagen> bash
+  ```
+  De esta manera estamos indicando que queremos iniciar el contenedor de forma **interactiva** `-it` y ejecutar un terminal `bash`.
+  
+  Si por alguna razon necesitamos detener el contenedor y luego de volver a iniciarlo, queremos vovler a conectarnos a su terminal usamos `attach`, este comando vuelve a ejecutar el comando indicado al momento de la creacion del contenedor, en este caso `bash`:
+  
+  ```bash
+  $ docker attach <idContenedor>
+  ```
+  
+  Tambien podemos conectarnos al contenedor una vez ya creado:
+  
+  ```bash
+  $ Docker exec -it <idContenedor> bash
+  ```
+  Vemos que el comando es casi el mismo, solo que en lugar de `run` utilizamos `exec`.
+  
+  Para salir de un contenedor usamos el comando `exit`.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

@@ -1,0 +1,28 @@
+createdAt: "2021-11-30T14:35:36.982Z"
+updatedAt: "2021-11-30T14:48:28.375Z"
+type: "MARKDOWN_NOTE"
+folder: "16e8c7eaf9f61d8cb104"
+title: "Eliminar un directorio"
+tags: []
+content: '''
+  # Eliminar un directorio
+  ---
+  Para eliminar un directorio desde el terminal tenemos dos formas de hacerlo, por un lado, cuando el directorio esta vasio podemos usar el comando `rmdir`:
+  
+  ```bash
+  $ rmdir <nombreDirectorio>
+  ```
+  Esta es sin dudas la forma mas sensilla de eliminar un directorio vacio, sin embargo, si el directorio no esta vacio, este arrojara un error, para eliminar un directorio que no esta vasio lo hacemos de la siguiente manera:
+  
+  ```bash
+  $ rm -rfv <nombreDirectorio>
+  ```
+  Como podemos ver al comando `rm` **remove**, le pasamos unas banderas:
+  
+  1. `r` indica que se deve borrar de forma **recurrente**.
+  2. `f` indica que se deve borrar de forma **forzada**.
+  3. `v` esta bandera es opcional, significa que la salida de la consola saldra en modo **vervoso**, osea en un lenguaje mas entendible para los humanos.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

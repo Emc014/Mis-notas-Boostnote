@@ -1,0 +1,21 @@
+createdAt: "2021-11-29T21:14:14.296Z"
+updatedAt: "2021-11-29T21:25:01.521Z"
+type: "MARKDOWN_NOTE"
+folder: "782db1f2a144b68d1420"
+title: "Solucion a errores Docker"
+tags: []
+content: '''
+  # Solucion a errores Docker
+  ---
+  
+  solucion al error:
+  
+  >Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+  
+  ```bash
+  $ systemctl start docker
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

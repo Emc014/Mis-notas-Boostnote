@@ -1,0 +1,20 @@
+createdAt: "2021-11-25T14:16:33.038Z"
+updatedAt: "2021-11-25T14:30:07.649Z"
+type: "MARKDOWN_NOTE"
+folder: "782db1f2a144b68d1420"
+title: "Ejecutar un comando en el contenedor al momento de crearlo."
+tags: []
+content: '''
+  # Ejecutar un comando en el contenedor al momento de crearlo.
+  ---
+  Podemos ejecutar un comando al momento de crear un contenedor:
+  
+  ```bash
+  $ Docker run <NombreImagen> <Comando>
+  ```
+  
+  Como vemos, al final de las instrucciones de creacion del contenedor, podemos ingresar un comando que se ejecutara inmediatamente despues de creado el mismo.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
