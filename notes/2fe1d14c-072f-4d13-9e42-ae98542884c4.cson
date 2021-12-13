@@ -1,0 +1,19 @@
+createdAt: "2021-12-13T12:15:56.001Z"
+updatedAt: "2021-12-13T12:44:25.148Z"
+type: "MARKDOWN_NOTE"
+folder: "ce3e5ebc562f91b2b933"
+title: "Buscar dentro de un array con IndexOf()"
+tags: []
+content: '''
+  # Buscar dentro de un array con IndexOf()
+  ---
+  Para saber si un valor existe dentro de un array, podemos comprobar su existencia con `indexOf()`:
+  
+  ```js
+  myArray.indexOf('valorABuscar');
+  ```
+  si el valor existe devolvera la posision en el array, de lo contrario devolvera `-1`.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

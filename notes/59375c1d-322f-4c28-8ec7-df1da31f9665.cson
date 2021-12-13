@@ -1,0 +1,20 @@
+createdAt: "2021-12-13T02:00:40.481Z"
+updatedAt: "2021-12-13T02:08:27.431Z"
+type: "MARKDOWN_NOTE"
+folder: "ce3e5ebc562f91b2b933"
+title: "Pasar un strin a mayusculas"
+tags: []
+content: '''
+  # Pasar un strin a mayusculas
+  ---
+  Para pasar un string a mayus lo hacemos de la siguiente forma:
+  
+  ```js
+  let string = 'Hola Mundo'
+  string = string.toUpperCase()
+  ```
+  El resultado seria `"HOLA MUNDO"`
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

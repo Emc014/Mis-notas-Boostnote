@@ -1,0 +1,18 @@
+createdAt: "2021-12-13T13:10:02.521Z"
+updatedAt: "2021-12-13T13:12:19.340Z"
+type: "MARKDOWN_NOTE"
+folder: "ce3e5ebc562f91b2b933"
+title: "Agregar un valor al final de un array."
+tags: []
+content: '''
+  # Agregar un valor al final de un array.
+  ---
+  Podemos agregar un valor al final de un array con `push`:
+  
+  ```js
+  myArray.push('nuevoValor')
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
