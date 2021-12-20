@@ -1,5 +1,5 @@
 createdAt: "2021-11-29T21:14:14.296Z"
-updatedAt: "2021-11-29T21:25:01.521Z"
+updatedAt: "2021-12-01T16:06:24.157Z"
 type: "MARKDOWN_NOTE"
 folder: "782db1f2a144b68d1420"
 title: "Solucion a errores Docker"
@@ -13,7 +13,14 @@ content: '''
   >Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
   
   ```bash
-  $ systemctl start docker
+  $ sudo systemctl start docker
+  ```
+  
+  ```bash
+  $ sudo service --status-all
+  ```
+  ```bash
+  $ sudo service docker start
   ```
 '''
 linesHighlighted: []
