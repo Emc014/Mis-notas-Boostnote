@@ -1,0 +1,19 @@
+createdAt: "2021-12-13T01:52:29.987Z"
+updatedAt: "2021-12-13T02:06:05.208Z"
+type: "MARKDOWN_NOTE"
+folder: "ce3e5ebc562f91b2b933"
+title: "Pasar string a minusculas"
+tags: []
+content: '''
+  # Pasar string a minusculas
+  ---
+  Para pasar un string a minusculas lo hacemos de la siguiente manera:
+  ```js
+  let string= "Hola Mundo";
+  string = string.toLowerCase();
+  ```
+  El resultado seria `"hola mundo"`.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

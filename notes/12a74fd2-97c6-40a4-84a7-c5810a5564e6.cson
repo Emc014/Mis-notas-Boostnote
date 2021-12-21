@@ -1,0 +1,20 @@
+createdAt: "2021-12-13T13:39:54.393Z"
+updatedAt: "2021-12-13T13:43:08.915Z"
+type: "MARKDOWN_NOTE"
+folder: "ce3e5ebc562f91b2b933"
+title: "Leer un atributo de un elemento html."
+tags: []
+content: '''
+  # Leer un atributo de un elemento html.
+  ---
+  
+  Podemos leer el valor de un atributo html de la siguiente manera:
+  
+  ```js
+  elemento.getAttrtibute('nombreAtributo')
+  ```
+  Esto devuelve el valor del atributo en caso de que exista, e caso contrario devuelve `null`.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

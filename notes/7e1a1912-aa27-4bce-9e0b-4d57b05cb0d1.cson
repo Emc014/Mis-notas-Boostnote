@@ -1,0 +1,20 @@
+createdAt: "2021-12-05T01:52:16.602Z"
+updatedAt: "2021-12-05T02:15:13.494Z"
+type: "MARKDOWN_NOTE"
+folder: "ce3e5ebc562f91b2b933"
+title: "Evaluar o interpretar cadena de texto como js"
+tags: []
+content: '''
+  # Evaluar o interpretar cadena de texto como js
+  ---
+  Podemos evaluar o interpretar codigo **JS** que nos llega como una cadena de texto, por ejemplo de un **fetch**, para hacerlo utilizamos la funcion `eval()`:
+  
+  ```js
+  let cadena= 'alert(2*2)'
+  eval(cadena)
+  ```
+  como se ve `eval` interpretara la cadena como codigo **js** multiplicando (2*2) y mostrando el resultado en un **alert**.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
