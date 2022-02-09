@@ -1,11 +1,13 @@
 createdAt: "2021-11-25T14:16:33.038Z"
-updatedAt: "2021-11-25T14:30:07.649Z"
+updatedAt: "2022-01-20T04:12:17.879Z"
 type: "MARKDOWN_NOTE"
 folder: "782db1f2a144b68d1420"
-title: "Ejecutar un comando en el contenedor al momento de crearlo."
-tags: []
+title: "Docker - Ejecutar un comando en el contenedor al momento de crearlo."
+tags: [
+  "Docker"
+]
 content: '''
-  # Ejecutar un comando en el contenedor al momento de crearlo.
+  # Docker - Ejecutar un comando en el contenedor al momento de crearlo.
   ---
   Podemos ejecutar un comando al momento de crear un contenedor:
   

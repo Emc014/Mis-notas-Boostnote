@@ -59,6 +59,11 @@
       "key": "782db1f2a144b68d1420",
       "color": "#E8D252",
       "name": "Docker"
+    },
+    {
+      "key": "e7b92cd9a9e618b33a6e",
+      "color": "#2BA5F7",
+      "name": "MongoDB"
     }
   ],
   "version": "1.0"

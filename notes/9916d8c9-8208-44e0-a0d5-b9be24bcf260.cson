@@ -1,13 +1,13 @@
 createdAt: "2021-09-11T23:45:41.939Z"
-updatedAt: "2021-09-11T23:49:06.176Z"
+updatedAt: "2022-01-20T04:17:38.623Z"
 type: "MARKDOWN_NOTE"
 folder: "782db1f2a144b68d1420"
-title: "Detener un contenedor de docker"
+title: "Docker - Detener un contenedor de docker"
 tags: [
   "Docker"
 ]
 content: '''
-  # Detener un contenedor de docker
+  # Docker - Detener un contenedor de docker
   ---
   Para detener un contenedor de docker contamos con el comando **stop**:
   

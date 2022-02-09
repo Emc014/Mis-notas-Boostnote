@@ -1,11 +1,13 @@
 createdAt: "2021-11-24T16:10:07.288Z"
-updatedAt: "2021-11-24T16:17:30.430Z"
+updatedAt: "2022-01-20T04:12:40.274Z"
 type: "MARKDOWN_NOTE"
 folder: "782db1f2a144b68d1420"
-title: "Entrar en un contenedor docker"
-tags: []
+title: "Docker - Entrar en un contenedor"
+tags: [
+  "Docker"
+]
 content: '''
-  # Entrar en un contenedor docker
+  # Docker - Entrar en un contenedor
   ---
   
   Para ingresar en un contenedor que se esta ejecutando utilizamos el comando ``exec``:

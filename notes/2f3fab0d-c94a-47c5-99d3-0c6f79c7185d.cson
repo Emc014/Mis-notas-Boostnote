@@ -1,11 +1,13 @@
 createdAt: "2021-11-24T22:34:29.246Z"
-updatedAt: "2021-11-25T00:03:43.651Z"
+updatedAt: "2022-01-20T04:14:56.319Z"
 type: "MARKDOWN_NOTE"
 folder: "782db1f2a144b68d1420"
-title: "Descargar una imagen de un repositorio"
-tags: []
+title: "Docker - Descargar una imagen de un repositorio"
+tags: [
+  "Docker"
+]
 content: '''
-  # Descargar una imagen de un repositorio
+  # Docker - Descargar una imagen de un repositorio
   ---
   
   Para descargar una imagen desde el repositorio de **docker hub** disponemos del comando `` pull ``, este nos permite descargar imagenes sin la necesidad de ejecutar un contenedor:
@@ -27,6 +29,8 @@ content: '''
   
   Si la imagen se descargo de forma existosa deveriamos verla en la lista de imagenes.
 '''
-linesHighlighted: []
+linesHighlighted: [
+  2
+]
 isStarred: false
 isTrashed: false

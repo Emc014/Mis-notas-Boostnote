@@ -1,14 +1,14 @@
 createdAt: "2021-09-11T23:58:03.223Z"
-updatedAt: "2021-09-12T00:41:29.389Z"
+updatedAt: "2022-01-20T04:17:15.997Z"
 type: "MARKDOWN_NOTE"
 folder: "782db1f2a144b68d1420"
-title: "Enviar una imagen a Docker Hub"
+title: "Docker - Enviar una imagen a Docker Hub"
 tags: [
   "Docker"
   "Docker_Hub"
 ]
 content: '''
-  # Enviar una imagen a Docker Hub
+  # Docker - Enviar una imagen a Docker Hub
   ---
   Para enviar una imagen a nuestro **Docker Hub** primero tenemos que crear un repositorio.
   luego si no lo emos echo aun devemos iniciar sesion en docker con el comando `docker login -u TU_NOMBRE_DE_USUARIO`.

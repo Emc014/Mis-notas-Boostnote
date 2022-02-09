@@ -1,14 +1,14 @@
 createdAt: "2021-09-11T14:07:08.744Z"
-updatedAt: "2021-09-11T23:11:22.975Z"
+updatedAt: "2022-01-20T04:17:59.761Z"
 type: "MARKDOWN_NOTE"
 folder: "782db1f2a144b68d1420"
-title: "Dockerfile"
+title: "Docker - Dockerfile"
 tags: [
   "Docker"
   "Dockerfile"
 ]
 content: '''
-  # Dockerfile 
+  # Docker - Dockerfile 
   ---
   
   **Dockerfile** no es mas que un archivo en formato de texto que contiene las instrucciones de como crear una imagen, esto facilita por ejemplo que varios mienmbros de un equipo puedan generar contenedores identicos para ejecutar la aplicacion si conflictos de dependencias.

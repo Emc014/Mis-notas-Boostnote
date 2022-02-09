@@ -1,13 +1,13 @@
 createdAt: "2021-09-11T23:39:44.446Z"
-updatedAt: "2021-11-24T01:05:29.723Z"
+updatedAt: "2022-01-20T04:16:59.123Z"
 type: "MARKDOWN_NOTE"
 folder: "782db1f2a144b68d1420"
-title: "Listar contenedores de Docker"
+title: "Docker - Listar contenedores de Docker"
 tags: [
   "Docker"
 ]
 content: '''
-  # Listar contenedores de Docker
+  # Docker - Listar contenedores de Docker
   ---
   
   Cuando necesitamos listar los contenedores tenemos el comando **ps**:
