@@ -1,0 +1,23 @@
+createdAt: "2022-02-09T03:45:57.686Z"
+updatedAt: "2022-02-09T04:19:00.086Z"
+type: "MARKDOWN_NOTE"
+folder: "e7b92cd9a9e618b33a6e"
+title: "MongoDB - Crear una nueva base de datos o cambiar a una base de datos."
+tags: []
+content: '''
+  # MongoDB - Crear una nueva base de datos o cambiar a una base de datos.
+  ---
+  Para crea o cambiar a una base de datos tenemos el comando `use` este cambia a la base de datos que le indiquemos, siempre y cuando esta exista, de lo contrario creara una nueva base de datos con ese nombre.
+  
+  ```bash
+  > use  base1
+  switched to db base1
+  >
+  ```
+  como podemos ver en el ejemplo anterior creamos una base de datos llamada `base1` y la consola nos indica que nos movimos a esa base de datos.
+  
+  Tambien es bueno mencionar que cada ves que ingresamos al bash de **MongoDB** la base por defecto sera `test` hasta que nosotros la cambiemos.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

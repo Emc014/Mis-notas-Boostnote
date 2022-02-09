@@ -1,0 +1,21 @@
+createdAt: "2022-01-18T04:48:49.725Z"
+updatedAt: "2022-01-18T04:54:25.402Z"
+type: "MARKDOWN_NOTE"
+folder: "ce3e5ebc562f91b2b933"
+title: "Evaluar una cadena usando test"
+tags: []
+content: '''
+  # Evaluar una cadena usando test
+  ---
+  
+  Podemos evaluar o compara una cadena con una exprecion regular usando el metodo `test`:
+  
+  ```js
+  var cadena = "hello world!";
+  var result = /^hello/.test(cadena);
+  console.log(result); // true
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

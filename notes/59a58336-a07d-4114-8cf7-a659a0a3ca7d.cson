@@ -1,0 +1,37 @@
+createdAt: "2022-02-09T04:30:05.418Z"
+updatedAt: "2022-02-09T04:33:51.390Z"
+type: "MARKDOWN_NOTE"
+folder: "e7b92cd9a9e618b33a6e"
+title: "MongoDB - Insertar multiples documentos en una coleccion"
+tags: []
+content: '''
+  # MongoDB - Insertar multiples documentos en una coleccion
+  ---
+  Para insertar multiples documentos en una coleccion contamos con el comando `insertMany([])`:
+  
+  ```bash
+  db.libros.insertMany(
+    [
+      {
+        codigo: 3,  
+        nombre: 'Aprenda PHP',
+        autor: 'Mario Molina',
+        editoriales: ['Planeta']
+      },
+      {
+        codigo: 4,  
+        nombre: 'Java en 10 minutos',
+        autor: 'Barros Sergio',
+        editoriales: ['Planeta','Siglo XXI']
+      }
+    ]
+  )
+  ```
+  
+  Como resultado tendremso esto:
+  ![9ffe5473.png](:storage/59a58336-a07d-4114-8cf7-a659a0a3ca7d/9ffe5473.png)
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

@@ -1,0 +1,19 @@
+createdAt: "2022-02-09T04:11:22.428Z"
+updatedAt: "2022-02-09T04:15:55.523Z"
+type: "MARKDOWN_NOTE"
+folder: "e7b92cd9a9e618b33a6e"
+title: "MongoDB - Listar todos los documentos de una coleccion:"
+tags: []
+content: '''
+  # MongoDB - Listar todos los documentos de una coleccion:
+  ---
+  Para listar todos los documentos de una lista usamos el comando `find()` sin ningun parametro:
+  
+  ```bash
+  > db.libros.find()
+  ```
+  esto devolvera todos los documentos de la coleccion.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

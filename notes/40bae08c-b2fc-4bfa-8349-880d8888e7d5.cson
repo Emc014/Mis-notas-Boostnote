@@ -1,0 +1,20 @@
+createdAt: "2022-02-02T05:19:04.790Z"
+updatedAt: "2022-02-02T05:23:36.462Z"
+type: "MARKDOWN_NOTE"
+folder: "ce3e5ebc562f91b2b933"
+title: "Convertir codigo unicode en caracteres con JS"
+tags: []
+content: '''
+  # Convertir codigo unicode en caracteres con JS
+  ---
+  Podemos convertir codigos unicode a caracteres de la siguiente manera:
+  
+  ```js
+  String.fromCharCode(65,66,67) // devuelve "ABC"
+  ```
+  
+  Mas Info: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

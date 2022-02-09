@@ -1,0 +1,19 @@
+createdAt: "2022-02-09T03:38:45.787Z"
+updatedAt: "2022-02-09T03:45:50.292Z"
+type: "MARKDOWN_NOTE"
+folder: "e7b92cd9a9e618b33a6e"
+title: "MongoDB - Conectar a nuestra base de datos local desde bash"
+tags: []
+content: '''
+  # MongoDB - Conectar a nuestra base de datos local desde bash
+  ---
+  Para conectarnos a nuestra base de datos de **MongoDB** **"local"** es tan simple como ingresar el comando `mongo` en **bash**.
+  
+  ```bash
+  $ mongo
+  ```
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

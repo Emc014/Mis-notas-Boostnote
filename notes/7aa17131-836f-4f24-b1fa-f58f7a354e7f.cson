@@ -1,0 +1,47 @@
+createdAt: "2022-01-18T05:03:51.497Z"
+updatedAt: "2022-01-20T04:11:56.834Z"
+type: "MARKDOWN_NOTE"
+folder: "782db1f2a144b68d1420"
+title: "Docker - Volumenes en contenedores"
+tags: []
+content: '''
+  # Docker - Volumenes en contenedores
+  ---
+  Para tener un almacenamiento persistente, que nos permita mantener nuestros datos aun despues de que destruyamos los contenedores o simplement para compartir estos datos entre diferentes contenedores, **Docker** nos brinda los **volumenes**, podemos pensar en los **volumenes** como si fueran discos duros virtuales para nuestros contenedores.
+  
+  ## Tipos de Volumenes.
+  ---
+  Disponemos de dos tipos de volumenes diferentes, los **volumenes con nombres** y los de **montajes de enlace**.
+  La diferencia entre uno y otro radica en que los **Volumenes con nombres** son un contenedor de datos **cerrado**, esto quiere decir que no existe una ruta real por la que podamos acceder a los directorios de este desde la **maquina host**; como ventaja tenemos que son mas faciles de montar en los contenedores ya que solo devemos recordar su nombre.
+  Por otro lado los **montajes de enlace** crean ,valga la redundancia, un **enlace** entre un directorio real de la **maquina host** y un directorio del contenedor.
+  
+  ### Volumen con nombre:
+  ---
+  Podemos crear el volumen de dos formas, la primera es simplemente declarandolo al momento de crear el contenedor con la `-v` `--volume` bandera, seguido por el nombre del volumen luego dos puntos `:` y por ultimo el path del directorio dentro del contenedor donde se montara el volumen:
+  
+  ```bash
+  $ docker run -v [nombre-volumen]:[path-montaje-en-contenedor] [nombre-imagen]
+  ```
+  O podemos simplemente crear el **volumen** sin necesidad de crear el **contenedor**:
+  
+  ```bash
+  $  docker volume create [nombre-volumen]
+  ```
+  **Mas informacion:** https://docs.docker.com/get-started/05_persisting_data/
+  
+  ### Montaje de enlace
+  ---
+  Los montajes de enlaces solo se pueden realizar al momento de crear el contenedor, se crean de manera muy similar a como se crea el **volumen con nombre** con la diferencia que en lugar del nombre le pasamos el **path** de **la maquina host**:
+  
+  ```bash
+  $ docker run -v [path-maquina-host]:[path-contenedor] [nombre-imagen]
+  ```
+  Siempre podemos usar el comodin `"$(pwd)"` para hacer referencia al directorio actual de **la maquina host**.
+  
+  **Mas Informacion:**
+  [Use bind mounts \\| Docker Documentation](https://docs.docker.com/get-started/06_bind_mounts/)
+  [Use bind mounts \\| Docker Documentation](https://docs.docker.com/storage/bind-mounts/)
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

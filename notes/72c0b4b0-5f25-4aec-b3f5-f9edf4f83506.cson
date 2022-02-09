@@ -1,0 +1,16 @@
+createdAt: "2022-02-09T04:19:04.462Z"
+updatedAt: "2022-02-09T04:26:52.434Z"
+type: "MARKDOWN_NOTE"
+folder: "e7b92cd9a9e618b33a6e"
+title: "MongoDB - La estructura de las base de datos de MongoDB."
+tags: []
+content: '''
+  # MongoDB - La estructura de las base de datos de MongoDB.
+  --- 
+  ![0b766e98.png](:storage/72c0b4b0-5f25-4aec-b3f5-f9edf4f83506/0b766e98.png)
+  La base de datos  alberga a **Colecciones**, estas serian una analogia de las tablas en una base de datos **reclacional** como **MySQL**.
+  A su vez las **Colecciones** contienen **Documentos** Estos serian el equivalente a un registro en la base de datos **Relacionales**.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
