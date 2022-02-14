@@ -1,0 +1,28 @@
+createdAt: "2022-02-12T08:20:13.730Z"
+updatedAt: "2022-02-12T08:34:23.076Z"
+type: "MARKDOWN_NOTE"
+folder: "fd12c1e51d6efbb99ed8"
+title: "React - Crear la build de nuestra aplicacion"
+tags: []
+content: '''
+  # React - Crear la build de nuestra aplicacion
+  ---
+  Para crear la vercion de produccion o final de nuestra app de **react** usamos el comando `build` de npm:
+  
+  ```bash
+  npm run build
+  ```
+  
+  Es importante aclarar que es necesario tener el atributo `homepage`
+  declarado en el **package.json**:
+  
+  ```json
+  {
+  ...,
+  "homepage":"./",
+  ...
+  }
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

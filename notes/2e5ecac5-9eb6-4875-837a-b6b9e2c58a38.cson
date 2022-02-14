@@ -1,14 +1,14 @@
 createdAt: "2021-09-11T13:31:23.776Z"
-updatedAt: "2021-11-24T16:07:45.572Z"
+updatedAt: "2022-01-20T04:16:15.941Z"
 type: "MARKDOWN_NOTE"
 folder: "782db1f2a144b68d1420"
-title: "Crear un contenedor"
+title: "Docker - Crear un contenedor"
 tags: [
   "Docker"
   "Contenedor"
 ]
 content: '''
-  # Crear un contenedor
+  # Docker - Crear un contenedor
   ---
   Para crear un contenedor en docker usamos el comando **run** de la siguiente manera:
   

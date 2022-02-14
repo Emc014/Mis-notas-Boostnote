@@ -1,0 +1,20 @@
+createdAt: "2022-02-09T04:49:13.295Z"
+updatedAt: "2022-02-09T05:41:42.924Z"
+type: "MARKDOWN_NOTE"
+folder: "e7b92cd9a9e618b33a6e"
+title: "MongoDB - Listar todas las bases de datos."
+tags: []
+content: '''
+  # MongoDB - Listar todas las bases de datos.
+  ---
+  Para listar todas las bases de datos en MongoDB tenemos el comando `show dbs`:
+  
+  ```bash
+  > show dbs
+  ```
+  El resultado sera algo como esto:
+  ![d07b9cdf.png](:storage/30056be2-809a-4543-a854-61a238e86883/d07b9cdf.png)
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

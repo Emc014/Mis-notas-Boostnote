@@ -1,0 +1,22 @@
+createdAt: "2022-02-09T03:56:02.869Z"
+updatedAt: "2022-02-09T04:11:08.083Z"
+type: "MARKDOWN_NOTE"
+folder: "e7b92cd9a9e618b33a6e"
+title: "MongoDB - Crear una coleccion y agregar un documento:"
+tags: []
+content: '''
+  # MongoDB - Crear una coleccion y agregar un documento:
+  ---
+  A diferencia de una base de datos **Relaciona** como **MySQL** donde las tablas tienen que ser creadas antes de cargarle informacion, en las bases de datos **No Relacionales** como es el caso de **MongoDB** las colecciones se crean en el momento en que creamos el primer documento de estas:
+  
+  Para crear una coleccion y cargarle su primer documento lo hacemos de la siguiente manera:
+  
+  ```bash
+  > db.libros.insertOne({codigo:1, Nombre:'Juan', Edad:30, 
+  Conocimientos:['PHP','JS','CSS']})
+  ```
+  Como podemos ver en este caso indicamos que en `db` (la base de datos actual) queremos cargar un nuevo documento `insertOne`, en la coleccion `libros`. Tambien es bueno destacar que los datos se cargan en formato **JSON**.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

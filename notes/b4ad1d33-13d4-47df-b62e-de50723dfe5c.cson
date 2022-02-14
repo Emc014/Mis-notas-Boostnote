@@ -1,0 +1,22 @@
+createdAt: "2022-02-02T05:10:04.352Z"
+updatedAt: "2022-02-02T05:23:03.205Z"
+type: "MARKDOWN_NOTE"
+folder: "ce3e5ebc562f91b2b933"
+title: "Obtener el valor Unicode de un caracter con JS"
+tags: []
+content: '''
+  # Obtener el valor Unicode de un caracter con JS
+  ---
+  Podemos obtener el valor **unicode** de un caracter de la siguiente manera.
+  
+  ```js
+  "ABC".charCodeAt(0) // returns 65
+  ```
+  Al metodo `charCodeAt()` le pasamos un indice, en este caso es `0`, esto indica que el caracter que vamos a evaluar es el primero, en este caso la letra **A**. Al aplicar este metodo nos retorna **65** que vendria a ser el valor **Unicode** para la letra A mayuscula.
+  
+  Mas Info:
+  [String.prototype.charCodeAt() - JavaScript \\| MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

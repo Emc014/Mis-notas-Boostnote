@@ -1,0 +1,42 @@
+createdAt: "2022-01-20T04:10:14.789Z"
+updatedAt: "2022-01-20T05:01:11.946Z"
+type: "MARKDOWN_NOTE"
+folder: "782db1f2a144b68d1420"
+title: "Docker - Conectando contenedores por redes."
+tags: []
+content: '''
+  # Docker - Conectando contenedores por redes.
+  ---
+  Algunas veces, necesitamos usar mas de un contenedor para nuestra aplicacion, por ejemplo, en un contenedor podemos tener el servidor **PHP** y en otro la base de datos **MySQL**. El problema es que como los contenedores son anbientes aislados en su propio proceso, un contenedor no puede acceder a la informacion del otro de forma directa, para brindar una solucion a este problema **Docker** propone un sistema de conexion por **redes**, tal como conectariamos dos computadoras reales.
+  
+  Para hacer esto el proseso es el siguiente:
+  
+  Primero creamos la red:
+  ```bash
+  $ docker network create [nombre-de-la-red]
+  ```
+  Ahora crearemos un contenedor (en este caso el de MySQL) y lo conectaremos a la red:
+  ```Bash
+  $ docker run -d \\
+  --network [nombre-red] --network-alias mysql \\
+  -v [nombre-volumen]:/var/lib/mysql \\
+  -e MYSQL_ROOT_PASSWORD=[clave-root] \\
+  -e MYSQL_DATABASE=[nombre-base-de-datos] \\
+  mysql:5.7
+  ```
+  Es importante notar que ademas de conectrar el contenedor a la **red** por medio de la bandera `--network` utilizamos la bandera `--network-alias` para asignar una **direccion DNS** al contenedor, de forma que facilitemos la localizacion del contenedor en la red, de otra forma tendriamos que buscar su **direccion ip**.
+  
+  Ahora lo unico que nos queda por acer es crear nuestro contenedor de **PHP** y conectarlo a la misma red:
+  
+  ```bash
+  $ docker run -dp 80:80 \\
+  --network [nombre-red] \\
+  -v "$WPD":/var/www/html \\
+  --name my-php-server \\
+  php:8.0-apache
+  ```
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

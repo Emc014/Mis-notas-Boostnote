@@ -1,13 +1,13 @@
 createdAt: "2021-09-11T23:49:44.994Z"
-updatedAt: "2021-11-24T14:53:39.046Z"
+updatedAt: "2022-01-20T04:16:34.868Z"
 type: "MARKDOWN_NOTE"
 folder: "782db1f2a144b68d1420"
-title: "Eliminar un contenedor de Docker"
+title: "Docker - Eliminar un contenedor de Docker"
 tags: [
   "Docker"
 ]
 content: '''
-  # Eliminar un contenedor de Docker
+  # Docker - Eliminar un contenedor de Docker
   ---
   Para eliminar un contenedor de docker contamso con el comando **rm**:
   

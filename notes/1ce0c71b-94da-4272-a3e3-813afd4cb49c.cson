@@ -1,11 +1,13 @@
 createdAt: "2021-11-24T22:41:15.252Z"
-updatedAt: "2021-11-24T22:57:00.401Z"
+updatedAt: "2022-01-20T04:14:26.211Z"
 type: "MARKDOWN_NOTE"
 folder: "782db1f2a144b68d1420"
-title: "Buscar imagenes en Docker Hub"
-tags: []
+title: "Docker - Buscar imagenes en Docker Hub"
+tags: [
+  "Docker"
+]
 content: '''
-  # Buscar imagenes en Docker Hub
+  # Docker - Buscar imagenes en Docker Hub
   ---
   Podemos realizar busquedas de imagenes directamente desde el terminal, sin la nesesidad de navegar al sitio web de **Docker Hub**, para esto contamos con el comando ``search``:
   

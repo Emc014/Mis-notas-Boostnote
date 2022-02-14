@@ -1,11 +1,13 @@
 createdAt: "2021-11-25T13:51:15.152Z"
-updatedAt: "2021-11-26T16:46:28.040Z"
+updatedAt: "2022-01-20T04:15:58.086Z"
 type: "MARKDOWN_NOTE"
 folder: "782db1f2a144b68d1420"
-title: "Ingresar o conectarse a un contenedor de Docker"
-tags: []
+title: "Docker - Ingresar o conectarse a un contenedor de Docker"
+tags: [
+  "Docker"
+]
 content: '''
-  # Ingresar o conectarse a un contenedor de Docker
+  # Docker - Ingresar o conectarse a un contenedor de Docker
   ---
   Para ingresar o conectarse a un contenedor Docker disponemos de diferentes formas de hacerlo, por un lado podemos ingresar al momento de crearlo:
   

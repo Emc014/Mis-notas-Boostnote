@@ -1,11 +1,13 @@
 createdAt: "2021-11-24T18:01:18.381Z"
-updatedAt: "2021-11-24T18:11:57.926Z"
+updatedAt: "2022-01-20T04:13:47.509Z"
 type: "MARKDOWN_NOTE"
 folder: "782db1f2a144b68d1420"
-title: "Copiar archivos entre la maquina host y el contenedor"
-tags: []
+title: "Docker - Copiar archivos entre la maquina host y el contenedor"
+tags: [
+  "Docker"
+]
 content: '''
-  # Copiar archivos entre la maquina host y el contenedor
+  # Docker - Copiar archivos entre la maquina host y el contenedor
   ---
   
   Podemos copiar archivos desde la **maquina host** al **contenedor** y vicerversa. Para esto contamos con el siguiente comando:
