@@ -1,0 +1,18 @@
+createdAt: "2022-02-18T23:12:15.206Z"
+updatedAt: "2022-02-18T23:16:35.537Z"
+type: "MARKDOWN_NOTE"
+folder: "e7b92cd9a9e618b33a6e"
+title: "MongoDB - Eliminar documentos de una coleccion:"
+tags: []
+content: '''
+  # MongoDB - Eliminar documentos de una coleccion:
+  ---
+  Para eliminar todos los documentos de una coleccion usamos el metodo `deleteMany`:
+  ```bash
+  db.libros.deleteMany({})
+  show collections
+  ```
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
