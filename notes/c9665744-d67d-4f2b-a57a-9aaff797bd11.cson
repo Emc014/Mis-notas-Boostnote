@@ -1,0 +1,29 @@
+createdAt: "2022-03-05T23:41:59.297Z"
+updatedAt: "2022-03-06T21:22:14.937Z"
+type: "MARKDOWN_NOTE"
+folder: "e7b92cd9a9e618b33a6e"
+title: "MongoDB - Actualizar un documento con el metodo updateOne"
+tags: []
+content: '''
+  # MongoDB - Actualizar un documento con el metodo updateOne
+  ---
+  
+  Para actualizar la informacion de un documento tenemos el metodo `updateOne`:
+  
+  ```js
+  db.libros.updateOne( {_id:1},{ $set:{precio:15,cantidad:1} } )
+  ```
+  Como podemos ver en el ejemplo anterior, al metodo `updateOne` le pasamos dos parametros, el primero es un parametro que nos permite indicar cual es el documento que queremos actualizar, en el segundo parametro usamos el operador `$set` que es un operador de actualizacion y seguidamente le pasamos los 
+  campos a actualizar.
+  Debemos tener en cuenta que no es necesario que exista el campo, si el campo que queremos actualizar no existe simplemente se creara.
+  
+  Para actualizar campos que guardan arreglos utilizamos el operador `$push`:
+  
+  ```js
+  db.libros.updateOne({_id : {$eq:1}} , {$push : {editorial:'Atlántida'} })
+  ```
+  despues de ejecutar la actualizacion el arreglo **editorial** de el documento de **ID 1** tendra un nuevo valor **Atlantida**.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

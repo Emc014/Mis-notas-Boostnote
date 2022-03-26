@@ -1,0 +1,21 @@
+createdAt: "2022-03-05T21:51:51.820Z"
+updatedAt: "2022-03-05T21:55:59.876Z"
+type: "MARKDOWN_NOTE"
+folder: "e7b92cd9a9e618b33a6e"
+title: "MongoDB - Eliminar una base de datos"
+tags: []
+content: '''
+  # MongoDB - Eliminar una base de datos
+  ---
+  Para eliminar una base de datos tenemos el metodo `dropDatabase`:
+  ```js
+  show dbs
+  use base1
+  db.dropDatabase()
+  show dbs
+  ```
+  Como podremos ver, despues de el comando dropDatabase ya no existira la base de datos **base1**.
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

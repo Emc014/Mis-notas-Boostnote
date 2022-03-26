@@ -1,0 +1,35 @@
+createdAt: "2022-03-05T21:59:16.506Z"
+updatedAt: "2022-03-05T22:59:36.525Z"
+type: "MARKDOWN_NOTE"
+folder: "e7b92cd9a9e618b33a6e"
+title: "MongoDB - Filtrar documentos por condiciones con el metodo find:"
+tags: []
+content: '''
+  # MongoDB - Filtrar documentos por condiciones con el metodo find:
+  ---
+  
+  El metodo find nos permite selecciona solo algunos documentos que cumplan con una condicion:
+  
+  ```js
+  db.libros.find({_id:1})
+  ```
+  Por ejemplo en el ejemplo anterior buscamos el documento que tenga el **ID 1**.
+  
+  Si no existe un documento que concida con la busqueda no se devolvera ningun documento.
+  
+  Otros ejemplos de busqueda:
+  
+  ```js
+  db.libros.find({precio:50})
+  ```
+  
+  Un ejemplo con mas de una condicion:
+  ```js
+  db.libros.find({ precio:50 , cantidad:20 })
+  ```
+  
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

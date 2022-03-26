@@ -1,5 +1,5 @@
 createdAt: "2022-02-18T23:12:15.206Z"
-updatedAt: "2022-02-18T23:16:35.537Z"
+updatedAt: "2022-03-05T23:40:44.098Z"
 type: "MARKDOWN_NOTE"
 folder: "e7b92cd9a9e618b33a6e"
 title: "MongoDB - Eliminar documentos de una coleccion:"
@@ -12,6 +12,21 @@ content: '''
   db.libros.deleteMany({})
   show collections
   ```
+  Esto elimina todos los documentos de la coleccion **libros** pero no elimina la coleccion en si, esto es diferente al metodo `drop` que borra tambien la coleccion.
+  
+  ## Eliminar documentos que cumnplan con una o mas condiciones:
+  
+  Para eliminar documentos que cumplan con condiciones tenemos el ya mencionado `deleteMany` que elimina todos los documentos que coincidan y el metodo `deleteOne` que elimina solo el primer documento que coincida:
+  
+  ```js
+  db.libros.deleteOne({_id:1})
+  ```
+  Se elimina el documento cuyo id sea 1.
+  
+  ```js
+  db.libros.deleteMany({ precios:{$gte:50} })
+  ```
+  se borran todos los documentos cuyos libros tengan un valor que sea igual o mayor a 50.
 '''
 linesHighlighted: []
 isStarred: false

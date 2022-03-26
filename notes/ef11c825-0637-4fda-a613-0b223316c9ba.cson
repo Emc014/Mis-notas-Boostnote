@@ -1,0 +1,22 @@
+createdAt: "2022-03-05T21:34:19.155Z"
+updatedAt: "2022-03-05T21:51:42.304Z"
+type: "MARKDOWN_NOTE"
+folder: "e7b92cd9a9e618b33a6e"
+title: "MongoDB - Eliminar una coleccion"
+tags: []
+content: '''
+  # MongoDB - Eliminar una coleccion
+  ---
+  Cuando queremos eliminar una coleccion junto a todos sus documentos utilizamos el metodo `drop`:
+  
+  ```js
+  use base1
+  db.libros.drop()
+  show collections
+  ```
+  Esto elimina la coleccion junto con todos sus documentos.
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

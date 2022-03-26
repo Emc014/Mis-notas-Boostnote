@@ -1,0 +1,27 @@
+createdAt: "2022-03-06T21:06:01.674Z"
+updatedAt: "2022-03-06T21:25:46.068Z"
+type: "MARKDOWN_NOTE"
+folder: "e7b92cd9a9e618b33a6e"
+title: "MongoDB - Eliminar campos en un documento"
+tags: []
+content: '''
+  # MongoDB - Eliminar campos en un documento
+  ---
+  
+  Para eliminar campos en un documento utilizamos el metodo `updateOne`:
+  
+  ```js
+  db.libros.updateOne( {_id:4},{$unset: {descripcion:''} })
+  ```
+  Como podemos ver para eliminar un campo le pasamos al metodo `updateOne` dos parametros, el primero indica el documento que vamos a modificar y el segundo parametro esta compuesto por el operador `$unset` seguido de los campos que queremos eliminar.
+  
+  Para eliminar un valor de un arreglo utilizamos el operador `$pull`:
+  
+  ```js
+  db.libros.updateOne({_id : {$eq:1}} , {$pull : {editorial:'Atlántida'} })
+  ```
+  Luego de ejecutar la actualizacion se abra borrado el valor **Atlantida** del arreglo **editorial** en el documento de ID 1
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

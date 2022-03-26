@@ -1,0 +1,50 @@
+createdAt: "2022-03-05T23:02:58.973Z"
+updatedAt: "2022-03-05T23:17:39.465Z"
+type: "MARKDOWN_NOTE"
+folder: "e7b92cd9a9e618b33a6e"
+title: "MongoDB - Operadores relacionales:"
+tags: []
+content: '''
+  # MongoDB - Operadores relacionales:
+  ---
+  
+  ## Operador de igualdad $eq
+  
+  El operador de igualdad permite buscar resultados exactamente iguales:
+  ```js
+  db.libros.find({ precio:{ $eq : 50 } })
+  ```
+  Esto buscara todos los precios que coincidan exactamente con **50**.
+  
+  ## Operador menor que $lt:
+  
+  Cuando necesitamos buscar todos los resultados menores a **X** contamos con el operador `$lt$`:
+  
+  ```js
+  db.libros.find({ precios:{$lt:30} })
+  ```
+  este ejemplo devolvera todos los libros cuyo valor sea inferior a 30.
+  
+  
+  ## Otros operadores
+  
+  
+  
+  - $eq - equal - igual
+  - $lt - low than - menor que
+  - $lte - low than equal - menor o igual que
+  - $gt - greater than - mayor que
+  - $gte - greater than equal - mayor o igual que
+  - $ne - not equal - distinto
+  - $in - in - dentro de
+  - $nin - not in - no dentro 
+  
+  # Ejemplo de busqueda de strings:
+  ```js
+  db.libros.find( { editorial: { $in : ['Planeta'] } })
+  ```
+  en el ejemplo anterior se buscan todos los libros de la editorial **Planeta**.  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false

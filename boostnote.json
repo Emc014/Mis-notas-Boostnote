@@ -64,6 +64,11 @@
       "key": "e7b92cd9a9e618b33a6e",
       "color": "#2BA5F7",
       "name": "MongoDB"
+    },
+    {
+      "key": "3d2ab14d2c66eab8d36b",
+      "color": "#30D5C8",
+      "name": "PWA"
     }
   ],
   "version": "1.0"
